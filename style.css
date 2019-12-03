@@ -1,3 +1,27 @@
 body {
+    margin: 0;
     background-color: #333333;
+}
+
+nav {
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #222222;
+    position: fixed;
+    width: 100%;
+    display: grid;
+}
+
+/*.navContentContainer {
+    background-color: #222222;
+}*/
+
+#navBarLogo {
+    margin: 6px;
+    margin-top: 10px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+main {
+    margin: 6px;
 }
