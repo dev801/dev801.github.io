@@ -32,7 +32,7 @@ a:hover {
 }
 
 .row4 {
-    grid-row 4 / 5;
+    grid-row: 4 / 5;
 }
 
 .col1 {
