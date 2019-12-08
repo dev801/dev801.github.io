@@ -95,3 +95,18 @@ main {
     margin: 6px;
     color: #ffffff;
 }
+
+/*GENERAL*/
+.mainWrapper {
+    grid-template-columns: auto 70% auto;
+    display: grid;
+}
+
+.sessionHeader {
+    font-size: 40px;
+}
+
+.mainQuote {
+    text-align: center;
+    font-size: 20px;
+}
