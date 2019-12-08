@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\home",
+    "\\sosc"
   ],
-  "SelectedNode": "\\style.css",
+  "SelectedNode": "\\sosc\\style.css",
   "PreviewInSolutionExplorer": false
 }
