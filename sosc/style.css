@@ -104,9 +104,28 @@ main {
 
 .sessionHeader {
     font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .mainQuote {
     text-align: center;
     font-size: 20px;
+    margin: 10px;
+}
+
+.recapGrid {
+    grid-template-rows: min-content min-content;
+    display: grid;
+    text-align: left;
+}
+
+.recapText {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    font-size: 15px;
+}
+
+.recapText p {
+    margin-top: 3px;
 }
