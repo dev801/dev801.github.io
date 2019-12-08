@@ -121,6 +121,8 @@ main {
     margin: auto;
     margin-right: 5px;
     border-radius: 2px;
+    float: right;
+    vertical-align: middle;
 }
 
 .entryTitle {
@@ -145,3 +147,11 @@ main {
     display: grid;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #0081a5;
+}
