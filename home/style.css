@@ -61,7 +61,7 @@ a:hover {
 nav {
     grid-template-columns: min-content auto auto auto auto;
     background-color: #222222;
-    position: absolute;
+    position: fixed;
     width: 100%;
     display: grid;
 }

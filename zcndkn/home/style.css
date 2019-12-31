@@ -1,8 +1,13 @@
+@font-face {
+    font-family: "ZcnDkn";
+    src: url("https://dev801.github.io/zcndkn/ZirconianDakkaneseSans.ttf");
+}
+
 body {
     margin: 0;
     min-height: 100%;
     background-color: #333333;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'ZcnDkn', sans-serif;
 }
 
 /*GENERAL*/
@@ -61,7 +66,7 @@ a:hover {
 nav {
     grid-template-columns: min-content auto auto auto auto;
     background-color: #222222;
-    position: absolute;
+    position: fixed;
     width: 100%;
     display: grid;
 }
@@ -80,6 +85,7 @@ nav a p, nav a {
 .navbarText {
     text-align: center;
     margin: auto;
+    font-size: 23px;
 }
 
 nav a p:hover, nav a:hover {
@@ -115,7 +121,8 @@ main {
     margin-left: 5px;
     display: inline-block;
     width: 20%;
-    height: 50%
+    height: 50%;
+    font-family: 'Cabin';
 }
 
 .entryImage {
@@ -137,6 +144,7 @@ main {
     grid-row: 4 / 5;
     display: inline-block;
     margin: 5px;
+    font-size: 30px;
 }
 
 .entryText p {
