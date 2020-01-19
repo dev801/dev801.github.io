@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\home",
     "\\zcndkn",
-    "\\zcndkn\\home"
+    "\\zcndkn\\home",
+    "\\zcndkn\\sosc"
   ],
-  "SelectedNode": "\\home\\style.css",
+  "SelectedNode": "\\zcndkn\\home\\index.html",
   "PreviewInSolutionExplorer": false
 }
