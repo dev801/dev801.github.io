@@ -1,1 +1,1 @@
-dev801.github.io/projects/codehub
+dev801.github.io/projects/codehub/meta.json

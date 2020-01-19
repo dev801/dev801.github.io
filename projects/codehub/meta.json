@@ -1,6 +1,9 @@
 {
 	"project-name": "dev801 Project Hub",
-	"files": [
-		"main-exe": ""
-	]
+	"version": "v0.0.1",
+	"release-date": "",
+	"description": "This is the program that lets you download any of my projects, and currently has really awful graphics.",
+	"files": [],
+	"file-sizes": [],
+	"total-program-size": ""
 }
