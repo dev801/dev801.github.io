@@ -12,6 +12,6 @@
 		"CubeRunnerSetup(x86).exe"
 	],
 	"file-sizes": [],
-	"main-exe": "",
+	"main-exe": "CubeRunnerSetup(x86).exe",
 	"total-program-size": ""
 }
