@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #333333;
+    font-family: 'Cabin', sans-serif;
+}
+
+/*GENERAL*/
+.spaceFiller {
+    color: #333333;
+}
+
+a:hover {
+    color: #0081a5;
+}
+
+/*GRIDS*/
+.wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+}
+
+.row1 {
+    grid-row: 1 / 2;
+}
+
+.row2 {
+    grid-row: 2 / 3;
+}
+
+.row3 {
+    grid-row: 3 / 4;
+}
+
+.row4 {
+    grid-row: 4 / 5;
+}
+
+.col1 {
+    grid-column: 1 / 2;
+}
+
+.col2 {
+    grid-column: 2 / 3;
+}
+
+.col3 {
+    grid-column: 3 / 4;
+}
+
+.col4 {
+    grid-column: 4 / 5;
+}
+
+.col5 {
+    grid-column: 5 / 6;
+}
+
+/*NAV BAR*/
+
+nav {
+    grid-template-columns: min-content auto auto auto auto;
+    background-color: #222222;
+    position: fixed;
+    width: 100%;
+    display: grid;
+}
+
+#navBarLogo {
+    margin: 6px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+nav a p, nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbarText {
+    text-align: center;
+    margin: auto;
+}
+
+nav a p:hover, nav a:hover {
+    color: #0081a5;
+}
+
+a:hover {
+    color: #0081a5;
+}
+
+/*MAIN*/
+
+main {
+    margin: 6px;
+    margin-top: 0px;
+    color: #ffffff;
+}
+
+/*ENTRIES*/
+#e3-12-19 {
+    grid-template-rows: min-content min-content min-content auto;
+    display: grid;
+}
+
+.entry {
+    border-radius: 3px;
+}
+
+.entryDate {
+    grid-row: 1 / 2;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    display: inline-block;
+    width: 20%;
+    height: 50%
+}
+
+.entryImage {
+    height: 40px;
+    margin: auto;
+    margin-right: 5px;
+    border-radius: 2px;
+    float: right;
+    vertical-align: middle;
+}
+
+.entryTitle {
+    margin: auto;
+    margin-left: 5px;
+}
+
+.entryText {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    display: inline-block;
+    margin: 5px;
+}
+
+    .entryText p {
+        margin-top: 5px;
+        margin-bottom: 7px;
+    }
+
+.entries {
+    grid-template-columns: 25% 50% 25%;
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+    a:hover {
+        color: #0081a5;
+    }
