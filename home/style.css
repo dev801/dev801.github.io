@@ -36,6 +36,10 @@ a:hover {
     grid-row: 4 / 5;
 }
 
+.row5 {
+    grid-row: 5 / 6;
+}
+
 .col1 {
     grid-column: 1 / 2;
 }
