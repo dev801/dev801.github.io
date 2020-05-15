@@ -40,6 +40,10 @@ a:hover {
     grid-row: 5 / 6;
 }
 
+.row6 {
+    grid-row: 6 / 7;
+}
+
 .col1 {
     grid-column: 1 / 2;
 }
@@ -160,4 +164,27 @@ a {
 
 a:hover {
     color: #0081a5;
+}
+
+/*FOOTER*/
+footer {
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222222;
+}
+
+footer p {
+    margin-left: 10px;
+    color: #555555;
+}
+
+footer p a {
+    color: #666666;
+} 
+
+footer p a:hover {
+    color: #073c4b;
 }
