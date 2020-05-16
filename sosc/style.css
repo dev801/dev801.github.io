@@ -1,4 +1,6 @@
 body {
+    position: absolute;
+	top: 0;
     margin: 0;
     background-color: #333333;
     font-family: 'Cabin', sans-serif;
@@ -178,6 +180,15 @@ footer #footerMarquee {
     position: absolute;
     left: 250px;
     width: 65%;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #0081a5;
 }
 
 /*MISC*/
