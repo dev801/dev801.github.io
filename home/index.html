@@ -1,13 +1,40 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html>
     <head>
         <meta charset="utf-8" />
         <title>Dev801 - Home</title>
         <link type="text/css" rel="stylesheet" href="style.css" />
         <link type="image/x-icon" rel="icon" href="images/lgIco.ico" />
         <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <nav>
+		<script>
+		// https://stackoverflow.com/a/31757969
+		function checkBrowser() {
+			if (/MSIE 10/i.test(navigator.userAgent)) {
+			   // This is internet explorer 10
+			   //window.alert('isIE10');
+			   
+				document.getElementById("navbar").innerHTML = "";
+				document.getElementById("mainContent").innerHTML = "<h1 style=\"text-align: center;\" class=\"col2\">Why would you use Internet Explorer?</h1><h2 style=\"text-align: center;\" class=\"col2\">Sorry, but this page doesn't support your browser. Use <a href=\"https://www.google.com/chrome\" target=\"_blank\">Chrome</a>!</h2>"
+			}
+
+			if (/MSIE 9/i.test(navigator.userAgent) || /rv:11.0/i.test(navigator.userAgent)) {
+				// This is internet explorer 9 or 11
+				//window.location = 'pages/core/ie.htm';
+				//window.alert("IE 9/11");
+				console.log("IE 9/11");
+				document.getElementById("navbar").innerHTML = "";
+				document.getElementById("mainContent").innerHTML = "<h1 style=\"text-align: center;\" class=\"col2\">Why would you use Internet Explorer?</h1><h2 style=\"text-align: center;\" class=\"col2\">Sorry, but this page doesn't support your browser. Use <a href=\"https://www.google.com/chrome\" target=\"_blank\">Chrome</a>!</h2>"
+			}
+
+			if (/Edge\/\d./i.test(navigator.userAgent)){
+			   // This is Microsoft Edge
+			   //window.alert('Microsoft Edge');
+			}
+			}
+		</script>
+	</head>
+    <body onload="checkBrowser()">
+        <nav id="navbar">
             <img class="row1 col1" src="images/lgInv.png" id="navBarLogo" />
             <a class="row1 col2 navbarText" href="https://dev801.github.io/home/"><p>Home</p></a>
             <a class="row1 col3 navbarText" href="https://dev801.github.io/projects/"><p>Projects</p></a>
@@ -17,7 +44,7 @@
     <main>
         <p class="spaceFiller">.</p>
         <p class="spaceFiller">.<br>.</p>
-        <div class="entries">
+        <div class="entries" id="mainContent">
             <div id="e15-5-20" class="entry col2 row1">
                 <img class="entryImage col1 row1" src="images/lgNrm.png" al />
                 <h6 class="entryDate row2 col1">15/05/2020</h6>
