@@ -1,0 +1,10 @@
+{
+    "posts": [
+        {
+            "number": "#1",
+            "date": "11/07/2020",
+            "title": "I still slightly hate JavaScript",
+            "content": "I'm still way too used to languages like Java and C# and keep accidentally putting things like <kbd>int</kbd> and <kbd>float</kbd> before variables. I swear I'm never gonna get used to not having to do that!"
+        }
+    ]
+}

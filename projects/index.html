@@ -1,50 +1,55 @@
-﻿<html>
-<head>
-    <meta charset="utf-8" />
-    <title>Dev801 - Projects</title>
-    <link type="text/css" rel="stylesheet" href="style.css" />
-    <link type="image/x-icon" rel="icon" href="images/lgIco.ico" />
-    <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i&display=swap" rel="stylesheet">
-</head>
-<body>
-    <nav>
-        <img class="row1 col1" src="images/lgInv.png" id="navBarLogo" />
-        <a class="row1 col2 navbarText" href="https://dev801.github.io/home/"><p>Home</p></a>
-        <a class="row1 col3 navbarText" href="https://dev801.github.io/projects/"><p>Projects</p></a>
-        <a class="row1 col4 navbarText" href="https://dev801.github.io/code/"><p>Code</p></a>
-        <a class="row1 col5 navbarText" href="https://dev801.github.io/sosc"><p>SOSC</p></a>
-    </nav>
-    <main>
-        <p class="spaceFiller">.</p>
-        <p class="spaceFiller">.<br>.</p>
-        <div class="entries">
-            <div id="e6-2-20" class="entry col2 row1">
-                <img class="entryImage col1 row1" src="images/lgNrm.png" al />
-                <h6 class="entryDate row2 col1">08/12/19</h6>
-                <h1 class="col1 row3 entryTitle"><b>The dev801 Project Hub!</b></h1>
-                <div class="entryText">
-                    <p>After being in development for too long, the program that lets you download other programs finally works. It currently has really awful graphics. You can find it <a href="https://dev801.github.io/projects/codehub/">here</a>.</p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>dev801 &middot; Projects</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="../images/lgNrm.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="../globalCSS.css" rel="stylesheet" type="text/css">
+        <link href="localCSS.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="../loadNavbar.js"></script>
+        <script src="loadContents.js"></script>
+        <script src="../randomScripts/loadFooter.js"></script>
+    </head>
+    <body onload="loadNavbar(1, 1);loadContents();loadFooter();">
+        <div id="rwNavbar"></div>
+
+        <main>
+            <div class="container jtronCntr">
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12" style="margin-top: auto;">
+                                <h1 id="mainTitle">Loading...</h1>
+                                <p id="headerText">Gimme a moment...<br><small>If this text doesn't go away soon, try reloading the page - jQuery most likely decided to die randomly.</small></p>
+                            </div>
+                            <div class="col-md-6 hidden-sm hidden-xs">
+                                <img src="../images/lgNrm.png" id="headerImg" width="100%">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <p class="spaceFiller">.</p>
             </div>
-        </div>
-    </main>
-    <footer>
-        <div id="left">&copy; George-801/dev801 2020</div>
-        <div id="footerMarquee">
-            <div class="marquee">
-                <span class="text">
-                    Shameless self promotion! Check out the Devs Discord that launched recently - you can find it <a href="https://discord.io/joinDevs">here</a>!
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    I should really be putting more projects on here due to the whole global lockdown thing and being stuck inside - but I can never seem to finish anything...
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    This marquee was a pain to put together - it would have been much easier if the &lt;marquee&gt; tag hadn't been discontinued...
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    If i figure out how, I may add more languages to this page in the future - it could be an interesting project! I'll try to do a better job than Google Translate.
-                </span>
+
+            <div class="noPMargin">
+                <div id="posts">
+                    <div class="container">
+                        Loading posts...
+                    </div>
+                </div>
+                <div class="spacer">.</div>
+                <div class="container">
+                    <span class="lead" style="margin-left: 5px;">Projects:</span><br>
+                    <div class="btn-group-vertical" id="projList" style="margin-left: 5px; margin-right: 5px;">
+                        <button type="button" class="btn btn-default">Loading...</button>
+                    </div>
+                </div>
+                <div class="spacer">.</div>
+                <div class="container cFooter" id="rwFooter"></div>
             </div>
-        </div>
-        <div id="right"><a href="https://github.com/George-801" target="_blank"><img src="images/GitHub-Mark-Light-32px.png"></a><a href="https://www.youtube.com/channel/UCvF3NnO1OKuFvd77oQVbIYQ" target="_blank"><img src="images/yt_icon_rgb.png"></a><a href="https://discord.io/joinDevs" target="_blank"><img src="images/Discord-Logo-Color.png"></a></div>
-    </footer>
-</body>
+        </main>
+    </body>
 </html>

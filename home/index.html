@@ -1,125 +1,66 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        <title>Dev801 - Home</title>
-        <link type="text/css" rel="stylesheet" href="style.css" />
-        <link type="image/x-icon" rel="icon" href="images/lgIco.ico" />
-        <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i&display=swap" rel="stylesheet">
-		<script>
-		// https://stackoverflow.com/a/31757969
-		function checkBrowser() {
-			if (/MSIE 10/i.test(navigator.userAgent)) {
-			   // This is internet explorer 10
-			   //window.alert('isIE10');
-			   
-				document.getElementById("navbar").innerHTML = "";
-				document.getElementById("mainContent").innerHTML = "<h1 style=\"text-align: center;\" class=\"col2\">Why would you use Internet Explorer?</h1><h2 style=\"text-align: center;\" class=\"col2\">Sorry, but this page doesn't support your browser. Use <a href=\"https://www.google.com/chrome\" target=\"_blank\">Chrome</a>!</h2>"
-			}
+        <title>dev801 &middot; Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="../images/lgNrm.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="../globalCSS.css" rel="stylesheet" type="text/css">
+        <link href="localCSS.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="../loadNavbar.js"></script>
+        <script src="../randomScripts/loadFooter.js"></script>
+        <script src="loadContents.js"></script>
+    </head>
+    <body onload="loadNavbar(1, 0);loadContents();loadFooter()">
+        <div id="rwNavbar"></div>
 
-			if (/MSIE 9/i.test(navigator.userAgent) || /rv:11.0/i.test(navigator.userAgent)) {
-				// This is internet explorer 9 or 11
-				//window.location = 'pages/core/ie.htm';
-				//window.alert("IE 9/11");
-				console.log("IE 9/11");
-				document.getElementById("navbar").innerHTML = "";
-				document.getElementById("mainContent").innerHTML = "<h1 style=\"text-align: center;\" class=\"col2\">Why would you use Internet Explorer?</h1><h2 style=\"text-align: center;\" class=\"col2\">Sorry, but this page doesn't support your browser. Use <a href=\"https://www.google.com/chrome\" target=\"_blank\">Chrome</a>!</h2>"
-			}
-
-			if (/Edge\/\d./i.test(navigator.userAgent)){
-			   // This is Microsoft Edge
-			   //window.alert('Microsoft Edge');
-			}
-			}
-		</script>
-	</head>
-    <body onload="checkBrowser()">
-        <nav id="navbar">
-            <img class="row1 col1" src="images/lgInv.png" id="navBarLogo" />
-            <a class="row1 col2 navbarText" href="https://dev801.github.io/home/"><p>Home</p></a>
-            <a class="row1 col3 navbarText" href="https://dev801.github.io/projects/"><p>Projects</p></a>
-            <a class="row1 col4 navbarText" href="https://dev801.github.io/code/"><p>Code</p></a>
-            <a class="row1 col5 navbarText" href="https://dev801.github.io/sosc"><p>SOSC</p></a>
-        </nav>
-    <main>
-        <p class="spaceFiller">.</p>
-        <p class="spaceFiller">.<br>.</p>
-        <div class="entries" id="mainContent">
-            <div id="e15-5-20" class="entry col2 row1">
-                <img class="entryImage col1 row1" src="images/lgNrm.png" al />
-                <h6 class="entryDate row2 col1">15/05/2020</h6>
-                <h1 class="col1 row3 entryTitle"><b>DISCORD!!!!</b></h1>
-                <div class="entryText">
-                    <p>There's a Discord now! Find it <a href="https://discord.io/joinDevs">here</a>!</p>
+        <main>
+            <div class="container jtronCntr">
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12" style="margin-top: auto;">
+                                <h1 id="mainTitle">Loading...</h1>
+                                <p id="headerText">Gimme a moment...<br><small>If this text doesn't go away soon, try reloading the page - jQuery most likely decided to die randomly.</small></p>
+                            </div>
+                            <div class="col-md-6 hidden-sm hidden-xs">
+                                <img src="../images/lgNrm.png" id="headerImg" width="100%">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <p class="spaceFiller">.</p>
             </div>
 
-			<div id="e14-5-20" class="entry col2 row2">
-                <img class="entryImage col1 row1" src="images/lgNrm.png" al />
-                <h6 class="entryDate row2 col1">14/05/2020</h6>
-                <h1 class="col1 row3 entryTitle"><b>I'm still alive</b></h1>
-                <div class="entryText">
-                    <p>Well I haven't put anything here in forever, but I thought I'd just put something here to prove I'm still alive. Only issue is that I never finish projects...</p>
+            <div class="noPMargin">
+                <div class="container">
+                    <div class="col-sm-12 col-md-6 exMrgTop remPadLR">
+                        <div class="drkBG">
+                            <p id="mainTextHeader" class="lead textHeader"></p>
+                            <p id="mainText"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 exMrgTop remPadLR">
+                        <div class="drkBG">
+                            <p id="nwsHeader" class="lead textHeader"></p>
+                            <p id="nws"></p>
+                        </div>
+                    </div>
                 </div>
-                <p class="spaceFiller">.</p>
-            </div>
-			
-            <div id="e6-2-20" class="entry col2 row3">
-                <img class="entryImage col1 row1" src="images/lgNrm.png" al />
-                <h6 class="entryDate row2 col1">06/02/2020</h6>
-                <h1 class="col1 row3 entryTitle"><b>Yay! Projects!</b></h1>
-                <div class="entryText">
-                    <p>The first project is up! Head to the projects page to have a look.</p>
+                <p class="spacer">.</p>
+                <div id="posts">
+                    <div class="container">
+                        <p>Loading posts...</p>
+                    </div>
+                    <div class="container">
+                        
+                    </div>
                 </div>
-                <p class="spaceFiller">.</p>
+                <div class="spacer">.</div>
+                <div class="container cFooter" id="rwFooter"></div>
             </div>
-            <div id="e1-1-20" class="entry col2 row4">
-                <img class="entryImage col1 row1" src="images/lgNrm.png" al />
-                <h6 class="entryDate row2 col1">01/01/2020</h6>
-                <h1 class="col1 row3 entryTitle"><b>Happy New Year!</b></h1>
-                <div class="entryText">
-                    <p>It's now 2020! And that's literally all I wanted to say.</p>
-                </div>
-                <p class="spaceFiller">.</p>
-            </div>
-            <div id="e8-12-19" class="entry col2 row5">
-                <img class="entryImage col1 row1" src="images/lgNrm.png" al />
-                <h6 class="entryDate row2 col1">08/12/2019</h6>
-                <h1 class="col1 row3 entryTitle"><b>SOSC is a thing now!</b></h1>
-                <div class="entryText">
-                    <p>Saviours of the Sword Coast has begun! There should be a recap <a href="https://dev801.github.io/sosc">here</a>.</p>
-                </div>
-                <p class="spaceFiller">.</p>
-            </div>
-            <div id="e3-12-19" class="entry col2 row6">
-                <img class="entryImage col1 row1" src="images/lgNrm.png" />
-                <h6 class="entryDate row2 col1">03/12/2019</h6>
-                <h1 class="col1 row3 entryTitle"><b>Hello!</b></h1>
-                <div class="entryText">
-                    <p>I've done it! Finally! A website to host projects! It may or may not have taken me four/five years, but I did it! Finally!</p>
-                    <p>My idea is that I can use this site to <del>show off</del> host my projects, and they and their source code (hopefully) can be downloaded via a link I will hopefully remember to provide for each one.</p>
-                </div>
-            </div>
-        </div>
-        <p class="spaceFiller">.</p>
-    </main>
-    <footer>
-        <div id="left">&copy; George-801/dev801 2020</div>
-        <div id="footerMarquee">
-            <div class="marquee">
-                <span class="text">
-                    Shameless self promotion! Check out the Devs Discord that launched recently - you can find it <a href="https://discord.io/joinDevs">here</a>!
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    I should really be putting more projects on here due to the whole global lockdown thing and being stuck inside - but I can never seem to finish anything...
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    This marquee was a pain to put together - it would have been much easier if the &lt;marquee&gt; tag hadn't been discontinued...
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    If i figure out how, I may add more languages to this page in the future - it could be an interesting project! I'll try to do a better job than Google Translate.
-                </span>
-            </div>
-        </div>
-        <div id="right"><a href="https://github.com/George-801" target="_blank"><img src="images/GitHub-Mark-Light-32px.png"></a><a href="https://www.youtube.com/channel/UCvF3NnO1OKuFvd77oQVbIYQ" target="_blank"><img src="images/yt_icon_rgb.png"></a><a href="https://discord.io/joinDevs" target="_blank"><img src="images/Discord-Logo-Color.png"></a></div>
-    </footer>
+        </main>
     </body>
 </html>

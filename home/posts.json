@@ -1,0 +1,40 @@
+{
+    "posts": [
+        {
+            "number": "#6",
+            "title": "DISCORD!!!!",
+            "date": "15/05/2020",
+            "content": "There's a Discord now! Find it <a href=\"https://discord.io/joinDevs\">here</a>!"
+        },
+        {
+            "number": "#5",
+            "title": "I'm still alive",
+            "date": "14/05/2020",
+            "content": "Well I haven't put anything here in forever, but I though I'd just put something here to prove I'm still alive. Only issue is that I never finish projects..."
+        },
+        {
+            "number": "#4",
+            "title": "Yay! Projects!",
+            "date": "06/02/2020",
+            "content": "The first project is up! Head to the projects page to have a look."
+        },
+        {
+            "number": "#3",
+            "title": "Happy New Year!",
+            "date": "01/01/2020",
+            "content": "It's now 2020! And that's literally all I wanted to say."
+        },
+        {
+            "number": "#2",
+            "title": "SOSC is a thing now!",
+            "date": "08/12/2019",
+            "content": "Saviours of the Sword Coast has begun! There should be a recap <abbr title=\"SOSC recaps are not currently available.\"><del>here</del></abbr>"
+        },
+        {
+            "number": "#1",
+            "title": "Hello!",
+            "date": "03/12/2019",
+            "content": "I've done it! Finally! A website to host projects! It may or may not have taken me four/five years, but I did it! Finally!<br>My idea is that I can use this site to <del>show off</del> host my projects, and they and their source code (hopefully) can be downloaded via a link I will hopefully remember to provide for each one."
+        }
+    ]
+}
