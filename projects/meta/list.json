@@ -2,12 +2,12 @@
 	"list": [
 		{
 			"name": "dev801 Project Hub",
-			"link": "http://localhost/dev801-dev/projects/codehub",
+			"link": "http://dev801.github.io/projects/codehub",
 			"state": "Beta"
 		},
 		{
 			"name": "Cuberunner",
-			"link": "http://localhost/dev801-dev/projects/cuberunner",
+			"link": "http://dev801.github.io/projects/cuberunner",
 			"state": "Finished"
 		}
 	]
