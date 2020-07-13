@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>dev801 &middot; 404</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="images/lgNrm.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="globalCSS.css" rel="stylesheet" type="text/css">
+        <link href="404CSS.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="loadNavbar.js"></script>
+        <script src="randomScripts/loadFooter.js"></script>
+    </head>
+    <body onload="loadNavbar(0, 0);loadFooter()">
+        <div id="rwNavbar"></div>
+
+        <main>
+            <div class="container jtronCntr">
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12" style="margin-top: auto;">
+                                <h1 id="mainTitle">404!</h1>
+                                <p id="headerText">This page doesn't exist!<br></p>
+                            </div>
+                            <div class="col-md-6 hidden-sm hidden-xs">
+                                <img src="../images/lgNrm.png" id="headerImg" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="noPMargin">
+                <div class="container">
+                    <div class="col-sm-12 col-md-12 exMrgTop remPadLR">
+                        <div class="drkBG">
+                            <p id="mainTextHeader" class="lead textHeader">I don't think you meant to end up here...</p>
+                            <p id="mainText">Follow <a href="https://dev801.github.io/home">this link</a> to go back to the home page.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="spacer">.</div>
+                <div class="container cFooter" id="rwFooter"></div>
+            </div>
+        </main>
+    </body>
+</html>
