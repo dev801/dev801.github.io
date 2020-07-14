@@ -1,13 +1,18 @@
 {
 	"list": [
 		{
+			"name": "BotBiscuit - click </a><span class=\"badge\"><a href=\"discordbots\" style=\"color: #ffffff\">here</a></span> for all 3 bots.",
+			"link": "discordbots/botbiscuit",
+			"state": "Beta"
+		},
+		{
 			"name": "dev801 Project Hub",
-			"link": "http://dev801.github.io/projects/codehub",
+			"link": "codehub",
 			"state": "Beta"
 		},
 		{
 			"name": "Cuberunner",
-			"link": "http://dev801.github.io/projects/cuberunner",
+			"link": "cuberunner",
 			"state": "Finished"
 		}
 	]

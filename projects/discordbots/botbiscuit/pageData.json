@@ -1,0 +1,8 @@
+{
+    "mainTitle": "BotBiscuit",
+    "headerText": "My first proper Discord bot, part of a semi-competition with some friends.",
+    "headerImg": "",
+    "description": "A Discord bot with no specific purpose other than trying to have more features than the other bots in the competition. Features include: <ul><li>Moderation commands</li><li>Currency system</li><li>Fun commands</li></ul>",
+    "knwnBgs": "Currently none - but that changes often, as the bot is currently under heavy development.",
+    "dlLink": "https://discord.gg/8aEHRPW"
+}

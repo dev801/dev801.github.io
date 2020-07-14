@@ -62,6 +62,15 @@ hr {
     background: #202020;
 }
 
+.headerImg {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #headerImg {
     width: 100%;
     max-width: 250px;
@@ -125,4 +134,9 @@ small {
 
 .textHeader {
     margin-bottom: 7px;
+}
+
+.siteTree {
+    color: #cccccc;
+    margin-bottom: 5px;
 }
