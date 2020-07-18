@@ -1,5 +1,11 @@
 {
     "posts": [
+		{
+			"number": "#7",
+			"title": "Site redesign!",
+			"date": "11/07/2020",
+			"content": "Why does everything look different?!? Quite simply, the old version of this site was absolutely awful. It looked a bit.. uh.. <i>ehh</i>... and it wasn't exactly what I'd call responsive. This newer version should fix those problems, whilst also giving me the ability to add fancy new things! Yay!"
+		},
         {
             "number": "#6",
             "title": "DISCORD!!!!",
