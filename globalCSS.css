@@ -15,6 +15,14 @@ body {
     font-family: 'Cabin', arial;
 }
 
+::selection {
+  background: #0085a1; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #0085a1; /* Gecko Browsers */
+}
+
 a {
     text-decoration: none;
     color: #cccccc;
