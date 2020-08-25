@@ -1,8 +1,8 @@
 {
-    "mainTitle": "Discord Bots",
-    "headerText": "Kind of a competition?",
+    "mainTitle": "BotBiscuit stuff",
+    "headerText": "yay new stuff",
     "mainTextHeader": "So what on earth actually is this page?",
     "mainText": "It's pretty much just a random page for me to chuck all the weird things I make/half make onto. Don't expect anything actually useful - you're never gonna get it!",
-    "nwsHeader": "Discord bots you say?",
-    "nws": "Yup! A couple friends and I decided to have a semi-competition to make a Discord bot. I've linked to their respective discord servers on a project page, which you should be able to find either by going to projects and clicking on the right project, or by following <a href=\"../projects/discordbots\">this link</a>."
+    "nwsHeader": "New stuff!? 【25/08/2020】",
+    "nws": "BotBiscuit's public now, so I thought I'd make a manual for it. It has it's own site <a href=\"https://dev801.github.io/botbiscuit\">here</a>, and I'm currently working on making the manual which will eventually be able to be accessed from that page."
 }

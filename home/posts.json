@@ -1,6 +1,12 @@
 {
     "posts": [
 		{
+			"number": "#8",
+			"title": "Discord bots!",
+			"date": "20/07/2020",
+			"content": "Yup! A couple friends and I decided to have a semi-competition to make a Discord bot. I've linked to their respective discord servers on a project page, which you should be able to find either by going to projects and clicking on the right project, or by following <a href=\"../projects/discordbots\">this link</a>."
+		},
+		{
 			"number": "#7",
 			"title": "Site redesign!",
 			"date": "11/07/2020",

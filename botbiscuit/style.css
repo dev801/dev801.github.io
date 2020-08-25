@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Atlata;
+    src: url(Alata-Regular.ttf)
+}
+
+@font-face {
+    font-family: KosugiMaru;
+    src: url(KosugiMaru-Regular.ttf)
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Atlata, KosugiMaru, arial;
+    color: #414141;
+    min-height: 100%;
+}
+
+::selection {
+    background: #414141;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background: #414141;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #007bff
+}

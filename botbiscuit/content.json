@@ -1,0 +1,111 @@
+{
+    "English": {
+        "general": {
+            "btt": "Back to top"
+        },
+        "nav": {
+            "overview": "Overview",
+            "features": "Features",
+            "invite": "Invite",
+            "manual": "Manual"
+        },
+        "header": {
+            "header": "BotBiscuit",
+            "subheader": "A general purpose Discord bot.",
+            "img": "favicon.png"
+        },
+        "overview": {
+            "header": "Overview",
+            "text": "BotBiscuit is a Discord bot designed to do anything from provide you with easy to use moderation features, to giving you and your server members fun commands to mess around with. ",
+            "img": "favicon.png"
+        },
+        "features": {
+            "header": "Features",
+            "text": "<h5>Easy to use moderation commands:</h5><ul><li>Kick</li><li>Ban</li><li>Mute</li><li>Warn</li><li>Report</li></ul><h5>Economy:</h5><ul><li>Users can create, run, upgrade and customise factories to create Biscuits.</li><li>Biscuits can be used to purchase items from the shop.</li><li>The more Biscuits a user has, the higher they appear on the global leaderboard.</li><li>Users can give each other Biscuits to help each other out.</li></ul><h5>Fun commands:</h5><ul><li>Reddit commands:<ul><li>Duolingo: grabs a random (normally weird) Duolingo sentence from <a href=\"https://www.reddit.com/r/shitduolingosays\">this subreddit</a>.</li><li>Engrish: grab a random post from <a href=\"https://www.reddit.com/r/engrish\">this subreddit</a>.</li></ul></li><li>Channel linking: link 2 channels together to chat with people from other servers!</li><li>Cleverbot: chat to BotBiscuit using an AI!</li></ul>...and more!",
+            "img": ""
+        },
+        "invite": {
+            "bot": {
+                "header": "Invite BotBiscuit to your server!",
+                "text": "Click here to invite BotBiscuit to your server!",
+                "extraText": "This will take you to a Discord page, and ask you to approve Administrator permissions for BotBiscuit. If you deny these permissions, BotBiscuit cannot function as it is meant to, so I recommend you approve them."
+            },
+            "server": {
+                "header": "Join BotBiscuit's Discord server!",
+                "text": "Join BotBiscuit's server to get news on new features, updates and <i>maybe</i> some sneak peeks at upcoming commands!"
+            }
+        }
+    },
+    "日本語": {
+        "general": {
+            "btt": "トップに"
+        },
+        "nav": {
+            "overview": "概要",
+            "features": "特徴",
+            "invite": "招待",
+            "manual": "オンラインマニュアル"
+        },
+        "header": {
+            "header": "BotBiscuit",
+            "subheader": "汎用Discordボット。"
+        },
+        "overview": {
+            "header": "概要",
+            "text": "BotBiscuitは、簡単に使えるモデレーション機能を提供することから、あなたやあなたのサーバーメンバーに楽しいコマンドを提供することまで、何でもできるように設計されたDiscordボットです。",
+            "img": "favicon.png"
+        },
+        "features": {
+            "header": "特徴",
+            "text": "<h5>モデレーションコマンドを簡単に使える：</h5><ul><li>追放</li><li>バン</li><li>ミュー</li><li>誡める</li><li>レポート</li></ul><h5>経済：</h5><ul><li>ユーザーは、Biscuitを作成するための工場を作成、実行、アップグレード、カスタマイズすることができます。</li><li>Biscuitはお店の商品を購入する際に使用することができます。</li><li>ユーザーが持っているBiscuitの数が多いほど、グローバルリーダーボードで上位に表示されます。</li><li>利用者同士でBiscuitを渡して助け合うことができます。</li></ul><h5>楽しいコマンド：</h5><ul><li>Redditコマンド：<ul><li>Duolingo：<a href=\"https://www.reddit.com/r/shitduolingosays\">このsubreddit</a>からDuolingoの文章をランダムに拾ってきました。</li><li>Engrish：<a href=\"https://www.reddit.com/r/engrish\">このsubreddit</a>からランダムな投稿を掴みます。</li></ul></li><li>チャンネルリンク：2つのチャンネルをリンクして、他のサーバーの人とチャットします！</li><li>Cleverbot：AIを使ってBotBiscuitにチャット!</li></ul>…などなど！",
+            "img": ""
+        },
+        "invite": {
+            "bot": {
+                "header": "BotBiscuitをDiscordサーバーへ招きます！",
+                "text": "これをクリックしてBotBiscuitをDiscordサーバーへ招きます！",
+                "extraText": ""
+            },
+            "server": {
+                "header": "BotBiscuitのサーバーに参加！",
+                "text": ""
+            }
+        }
+    },
+    "にほんご（ひらがな）": {
+        "general": {
+            "btt": "とっぷに"
+        },
+        "nav": {
+            "overview": "がいよう",
+            "features": "とくちょう",
+            "invite": "しょうたい",
+            "manual": "おんらいんまにゅある"
+        },
+        "header": {
+            "header": "BotBiscuit",
+            "subheader": "はんようDiscordぼっと"
+        },
+        "overview": {
+            "header": "がいよう",
+            "text": "BotBiscuitは、かんたんにつかえるもでれーしょんきのうをていきょうことから、あなたやあなたのさーばーめんばーにたのしいこまんどをていきょうすることまで、なにでもできるようにせっけいされたDiscordぼっとです。",
+            "img": "favicon.png"
+        },
+        "features": {
+            "header": "とくちょう",
+            "text": "<h5>もでれーしょんこまんどをかんたんにつかえる：</h5><ul><li>ついほう</li><li>ばん</li><li>みゅーと</li><li>める</li><li>れぽーと</li></ul><h5>けいざい：</h5><ul><li>ゆーざーは、Biscuitをさくせいするためのこうじょうをさくせい、じっこう、あっぷぐれーど、かすたまいずすることができます。</li><li>Biscuitはおみせのしょうひんをこうにゅうするさいにしようすることができます。</li><li>ゆーざーがもっているBiscuitのかずがおおいほど、ぐろーばるりーだーぼーどでじょういにひょうじされます。</li><li>りようしゃどうしでBiscuitをわたしてたすけあうことができます。</li></ul><h5>たのしいこまんど：</h5><ul><li>Redditこまんど：<ul><li>Duolingo：<a href=\"https://www.reddit.com/r/shitduolingosays\">このsubreddit</a>からDuolingoのぶんしょうをらんだむにひろってきました。</li><li><a href=\"https://www.reddit.com/r/engrish\">このsubreddit</a>かららんだむなとうこうをつかみます。</li></ul></li><li>ちゃんねるりんく：2つのちゃんねるをりんくして、たのさーばーのひととちゃっとします！</li><li>Cleverbot：AIをつかってBotBiscuitにちゃっと！</li></ul>…などなど！",
+            "img": ""
+        },
+        "invite": {
+            "bot": {
+                "header": "BotBiscuitをDiscordさーばーへまねきます！",
+                "text": "これをくりっくしてBotBiscuitをDiscordさーばーへまねきます！",
+                "extraText": ""
+            },
+            "server": {
+                "header": "BotBiscuitのさーばーにさんか！",
+                "text": ""
+            }
+        }
+    }
+}
