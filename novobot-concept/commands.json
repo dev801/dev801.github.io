@@ -1,0 +1,147 @@
+{
+    "moderation": [
+        {
+            "name": "Ban",
+            "desc": "Ban a user from your server.",
+            "activated": true,
+            "usage": "n!ban &lt;user&gt; &lt;reason&gt; &lt;time&gt;"
+        },
+        {
+            "name": "Kick",
+            "desc": "Kick a user from your server.",
+            "activated": true,
+            "usage": "n!kick &lt;user&gt; &lt;reason&gt;"
+        },
+        {
+            "name": "Purge",
+            "desc": "idk what this does",
+            "activated": true,
+            "usage": "n!purge"
+        },
+        {
+            "name": "Settings",
+            "desc": "idk what this does",
+            "activated": false,
+            "usage": "n!settings"
+        }
+    ],
+    "info": [
+        {
+            "name": "Help",
+            "desc": "Get help on a command.",
+            "activated": true,
+            "usage": "n!help &lt;command&gt;"
+        },
+        {
+            "name": "Ping",
+            "desc": "Get the ping.",
+            "activated": false,
+            "usage": "n!ping"
+        },
+        {
+            "name": "Uptime",
+            "desc": "Get the bot's uptime.",
+            "activated": true,
+            "usage": "n!uptime"
+        }
+    ],
+    "minigames": [
+        {
+            "name": "c4stats",
+            "desc": "Get your NovoCounters statistics.",
+            "activited": true,
+            "usage": "n!c4stats [user]"
+        },
+        {
+            "name": "NovoCounters",
+            "desc": "Play NovoCounters.",
+            "activated": true,
+            "usage": "n!novocounters &lt;user&gt;"
+        }
+    ],
+    "misc": [
+
+    ],
+    "fun": [
+        {
+            "name": "Discard",
+            "desc": "Discard an item from your inventory.",
+            "activated": true,
+            "usage": "n!discard &lt;index&gt;"
+        },
+        {
+            "name": "Inventory",
+            "desc": "View your inventory.",
+            "activated": true,
+            "usage": "n!inventory"
+        },
+        {
+            "name": "Leaderboard",
+            "desc": "A leaderboard of some sort",
+            "activated": false,
+            "usage": "n!leaderboard"
+        },
+        {
+            "name": "Use",
+            "desc": "Use an item in your inventory.",
+            "activated": true,
+            "usage": "n!use &lt;index&gt;"
+        },
+        {
+            "name": "View Inventory",
+            "desc": "View someone's inventory.",
+            "activated": false,
+            "usage": "n!viewinv &lt;user&gt;"
+        }
+    ],
+    "currency": [
+        {
+            "name": "Buy",
+            "desc": "Buy an item from the shop.",
+            "activated": true,
+            "usage": "n!buy &lt;ID&gt;"
+        },
+        {
+            "name": "Claim All",
+            "desc": "Claim all your active deposits.",
+            "activated": true,
+            "usage": "n!claimall"
+        },
+        {
+            "name": "Claim Deposit",
+            "desc": "Claim a specified deposit.",
+            "activated": true,
+            "usage": "n!claimdepo &lt;deposit ID&gt;"
+        },
+        {
+            "name": "Coins",
+            "desc": "View your number of coins.",
+            "activated": false,
+            "usage": "n!coins"
+        },
+        {
+            "name": "Daily",
+            "desc": "Claim your daily NovoCoins.",
+            "activated": true,
+            "usage": "n!daily"
+        },
+        {
+            "name": "Deposit",
+            "desc": "Create a deposit.",
+            "activated": false,
+            "usage": "idk how this works"
+        },
+        {
+            "name": "Shop",
+            "desc": "View the shop.",
+            "activated": true,
+            "usage": "n!shop"
+        },
+        {
+            "name": "Work",
+            "desc": "\"Work\" for NovoCoins.",
+            "activated": true,
+            "usage": "n!work"
+        }
+    ]
+}
