@@ -1,0 +1,99 @@
+{
+    "English": {
+        "nav": {
+			"home": "Home",
+			"projects": "Projects",
+			"code": "Code"
+        },
+        "carousel": {
+            "home": {
+                "link": "../home",
+                "bg": "",
+                "image": "testbanner.png",
+                "title": "Redesign! Again!",
+                "text": "yup, one more time..."
+            },
+            "projects": {
+                "link": "../projects",
+                "bg": "",
+                "image": "testbanner.png",
+                "title": "Placeholder",
+                "text": "yeeeet"
+            },
+            "code": {
+                "link": "../code",
+                "bg": "",
+                "image": "testbanner.png",
+                "title": "Placeholder #2",
+                "text": "yeeeet #2"
+            }
+        },
+        "info": {
+            "1": {
+                "title": "Hello there!",
+                "date": "",
+                "text": "So what on earth actually is this page? It's pretty much just a random page for me to chuck all the weird things I make/half make onto. Don't expect anything actually useful - you're never gonna get it!"
+            },
+            "2": {
+                "title": "Why <i>another</i> redesign?",
+                "date": "10/10/2020",
+                "text": "A: I can make things more responsive now, B: the old design wasn't exactly going to win any awards for good design."
+            },
+            "3": {
+                "title": "New stuff!?",
+                "date": "25/08/2020",
+                "text": "BotBiscuit's public now, so I thought I'd make a manual for it. It has its own site <a href=\"../botbiscuit\">here</a>, and I'm currently working on making the manual which will eventually be able to be accessed from that page."
+            }
+        },
+        "phone": {
+            "image": "testbanner.png"
+        }
+    },
+    "日本語": {
+        "nav": {
+			"home": "ホーム",
+			"projects": "プロジェクト",
+			"code": "コード"
+        },
+        "carousel": {
+            "home": {
+                "link": "../home",
+                "bg": "",
+                "image": "testbanner.png",
+                "title": "デザインを新しくしました！もう一度！",
+                "text": "はい、もう一度…"
+            },
+            "projects": {
+                "link": "../projects",
+                "bg": "",
+                "image": "testbanner.png",
+                "title": "プレースホルダ",
+                "text": "ユィート"
+            },
+            "code": {
+                "link": "../code",
+                "bg": "",
+                "image": "testbanner.png",
+                "title": "プレースホルダ　2番目",
+                "text": "ユィーと 2番目"
+            }
+        },
+        "info": {
+            "1": {
+                "title": "こんにちは！",
+                "date": "",
+                "text": "じゃ、このサイトは何ですか？ ランダムなサイトです。プログラミングすることの後に、成果はここに置きます。"
+            },
+            "2": {
+                "title": "「何でデザインをまた新しくしました」と問いますか？",
+                "date": "2020年10月10日",
+                "text": "知らない　；～；"
+            },
+            "3": {
+                "title": "新品？",
+                "date": "2020年8月25日",
+                "text": "どうこれを翻訳することが知なくてすみません。"
+            }
+        }
+    }
+}

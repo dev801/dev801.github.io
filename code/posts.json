@@ -1,6 +1,18 @@
 {
     "posts": [
         {
+            "number": "",
+            "date": "",
+            "title": "Nerd Page",
+            "content": "This is the nerd page. Otherwise known as the code page. I'll post code for finished projects here, and the occasional random programming thing (normally rants 😅)."
+        },
+		{
+			"number": "#2",
+			"date": "16/10/2020",
+			"title": "discord.js and <kbd>undefined</kbd>",
+			"content": "I know this has nothing to do with normal JavaScript, but I somehow <i>always</i> manage to forget a <kbd>.cache</kbd> here and there. Then spending way too long trying to find out what's wrong with my code even when the issue's literally right in front of me. I wish JavaScript was more detailed with its errors - or that it threw errors in more places, like when <kbd>undefined</kbd> is assigned to a variable. I mean sure, it's useful every now and then, but makes debugging hell the rest of the time."
+		},
+        {
             "number": "#1",
             "date": "11/07/2020",
             "title": "I still slightly hate JavaScript",

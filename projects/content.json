@@ -1,0 +1,38 @@
+{
+    "English": {
+        "nav": {
+			"home": "Home",
+			"projects": "Projects",
+			"code": "Code"
+        },
+        "carousel": {
+            "home": {
+                "link": "botbiscuit",
+                "bg": "",
+                "image": "testbanner.png",
+                "title": "BotBiscuit is now public!",
+                "text": "Check it out!"
+            },
+            "projects": {
+                "link": "codehub",
+                "bg": "",
+                "image": "testbanner.png",
+                "title": "Project Hub",
+                "text": "An attempt at my own Unity Hub..."
+            },
+            "code": {
+                "link": "cuberunner",
+                "bg": "",
+                "image": "testbanner.png",
+                "title": "Cuberunner",
+                "text": "An <i>awful</i> Unity game."
+            }
+        },
+        "phone": {
+            "image": "testbanner.png"
+        }
+    },
+    "日本語": {
+        
+    }
+}

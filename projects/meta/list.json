@@ -1,9 +1,9 @@
 {
 	"list": [
 		{
-			"name": "BotBiscuit - click </a><span class=\"badge\"><a href=\"discordbots\" style=\"color: #ffffff\">here</a></span> for all 3 bots.",
-			"link": "discordbots/botbiscuit",
-			"state": "Beta"
+			"name": "BotBiscuit",
+			"link": "botbiscuit",
+			"state": "0.3"
 		},
 		{
 			"name": "dev801 Project Hub",
