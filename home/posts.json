@@ -1,6 +1,12 @@
 {
     "posts": [
 		{
+			"number": "#9",
+			"title": "New stuff!?",
+            "date": "25/08/2020",
+            "text": "BotBiscuit's public now, so I thought I'd make a manual for it. It has its own site <a href=\"../botbiscuit\">here</a>, and I'm currently working on making the manual which will eventually be able to be accessed from that page."
+		},
+		{
 			"number": "#8",
 			"title": "Discord bots!",
 			"date": "20/07/2020",

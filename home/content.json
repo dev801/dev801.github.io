@@ -35,14 +35,14 @@
                 "text": "So what on earth actually is this page? It's pretty much just a random page for me to chuck all the weird things I make/half make onto. Don't expect anything actually useful - you're never gonna get it!"
             },
             "2": {
+                "title": "Discord Mk2",
+                "date": "17/10/2020",
+                "text": "Just realised I never put a link to the other discord servers. <a href=\"https://discord.gg/Peae5Mt\">Here</a>'s the BotBiscuit server, and <a href=\"https://discord.gg/XgrhgEN\">here</a>'s the general hangout server."
+            },
+            "3": {
                 "title": "Why <i>another</i> redesign?",
                 "date": "10/10/2020",
                 "text": "A: I can make things more responsive now, B: the old design wasn't exactly going to win any awards for good design."
-            },
-            "3": {
-                "title": "New stuff!?",
-                "date": "25/08/2020",
-                "text": "BotBiscuit's public now, so I thought I'd make a manual for it. It has its own site <a href=\"../botbiscuit\">here</a>, and I'm currently working on making the manual which will eventually be able to be accessed from that page."
             }
         },
         "phone": {
