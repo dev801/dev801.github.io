@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    font-family: Atlata, KosugiMaru, 'Noto Sans', arial;
+    font-family: Atlata, 'Noto Sans', KosugiMaru, arial;
     color: #414141;
     min-height: 100%;
 }
