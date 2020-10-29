@@ -107,5 +107,117 @@
                 "text": ""
             }
         }
+    },
+	"Français": {
+		"general": {
+            "btt": "Retour au sommet"
+        },
+        "nav": {
+            "overview": "Aperçu",
+            "features": "Fonctions",
+            "invite": "Inviter",
+            "manual": "Manuel"
+        },
+        "header": {
+            "header": "BotBiscuit",
+            "subheader": "Un Discord Bot d'usage général.",
+			"img": "favicon.png"
+        },
+        "overview": {
+            "header": "Aperçu",
+            "text": "BotBiscuit est un Discord Bot conçu pour tout faire, qu'il s'agisse de vous fournir des fonctions de modération faciles à utiliser ou de vous donner, ainsi qu'aux membres de votre serveur, des commandes amusantes à utiliser.",
+            "img": "favicon.png"
+        },
+        "features": {
+            "header": "Fonctions",
+            "text": "",
+            "img": ""
+        },
+        "invite": {
+            "bot": {
+                "header": "BotBiscuitをDiscordさーばーへまねきます！",
+                "text": "これをくりっくしてBotBiscuitをDiscordさーばーへまねきます！",
+                "extraText": ""
+            },
+            "server": {
+                "header": "BotBiscuitのさーばーにさんか！",
+                "text": ""
+            }
+        }
+	},
+	"Српски": {
+        "general": {
+            "btt": "Назад на врх"
+        },
+        "nav": {
+            "overview": "Преглед",
+            "features": "Функције",
+            "invite": "Позови у сервер",
+            "manual": "Упутство за коришћење"
+        },
+        "header": {
+            "header": "BotBiscuit",
+            "subheader": "Општенаменски Discord робот.",
+            "img": "favicon.png"
+        },
+        "overview": {
+            "header": "Преглед",
+            "text": "BotBiscuit је Discord робот који је дизајниран да ради било шта, од снабдевања Вас са алаткама за модерацију које је лако корисити, до давања члановима Вашег сервера забавне команде са којима се можете играти.",
+            "img": "favicon.png"
+        },
+        "features": {
+            "header": "Функције",
+            "text": "<h5>Команде за лаку модерацију:</h5><ul><li>Kick</li><li>Забрани приступ</li><li>Утишај</li><li>Опомени</li><li>Пријави</li></ul><h5>Економија:</h5><ul><li>Корисници могу да направе, држе, надограђују и подешавају фабрике да праве Бисквите.</li><li>Бисквити се могу користити за куповину предмета из продавнице.</li><li>Што више Бисквита има један корисник, то су виши на глобалној топ-листи.</li><li>Корисници могу другима да дају Бисквите да им помажу.</li></ul><h5>Забавне командеs:</h5><ul><li>Команде за Reddit:<ul><li>Duolingo: узме насумичну (обично чудну) Duolingo реченицу са <a href=\"https://www.reddit.com/r/shitduolingosays\">овог subreddit-а</a>.</li><li>Engrish: узме насумичну објаву са <a href=\"https://www.reddit.com/r/engrish\">овог subreddit-a</a>.</li></ul></li><li>Везивање канала: споји два канала да разговарате са људима из других сервера!</li><li>Cleverbot: разговарај са BotBiscuit-ом користећи вештачку интелигенцију!</li></ul>..и још!",
+            "img": ""
+        },
+        "invite": {
+            "bot": {
+                "header": "Позовите BotBiscuit у Ваш сервер!",
+                "text": "Кликните овде да позовете BotBiscuit у Ваш сервер!",
+                "extraText": "Ово ће Вас одвести до Discord странице, и питаће Вас да одобрите Администраторске дозволе за BotBiscuit. Ако одбијете ове дозволе, BotBiscuit неће моћи да функционише како треба, тако да Вам препоручујем да их одобрите."
+            },
+            "server": {
+                "header": "Придружите се BotBiscuit-овом Discord серверу!",
+                "text": "Придружите се BotBiscuit-овом Discord серверу да добијете вести о новим функцијама, ажурирањима и <i>можда</i> неким претпрегледима нових команди!"
+            }
+        }
+    },
+	"Română": {
+        "general": {
+            "btt": "Înapoi sus"
+        },
+        "nav": {
+            "overview": "Prezentare",
+            "features": "Funcţii",
+            "invite": "Invitaţie",
+            "manual": "Manual"
+        },
+        "header": {
+            "header": "BotBiscuit",
+            "subheader": "Un bot de Discord pentru utilizari generale.",
+            "img": "favicon.png"
+        },
+        "overview": {
+            "header": "Prezentare",
+            "text": "BotBiscuit este un bot de Discord făcut pentru a face orice de la funcţii de moderatie uşoare de folosit, până la comenzi distractive pentru membrii serverului dumneavoastră.",
+            "img": "favicon.png"
+        },
+        "features": {
+            "header": "Funcţii",
+            "text": "<h5>Comenzi de moderatie uşoare de folosit:</h5><ul><li>Kick</li><li>Ban</li><li>Mute</li><li>Avertizare</li><li>Raportare</li></ul><h5>Economie:</h5<ul><li>Utilizatorii pot creea, conducea, personaliza fabrici pentru a creea biscuiţi.</li><li>Biscuiţii pot fi folosiţi pentru a cumpăra lucruri din magazin.</li><li>Cu cât mai mulţi biscuiţi aveţi, cu cât mai sus veţi apărea pe top.</li><li>Utilizatorii işi pot da biscuiţi intre ei pentru a se ajutra.</li></ul><h5>Comenzi distractive:</h5><ul><li>Comenzi Reddit:<ul><li>Duolingo: ia o propoziţie (de obicei ciudată) la întamplare din <a href=\"https://www.reddit.com/r/shitduolingosays\">acest subreddit</a>.</li><li>Engrish: ia o postare la întamplare din <a href=\"https://www.reddit.com/r/engrish\">acest subreddit</a>.</li></ul></li><li>Asociere de canale: asociază 2 canale de Discord care permit utilizatorii sa vorbească intre ei din servere diferite.!</li><li>Cleverbot: vorbiţi cu BotBiscuit folosind IA (Inteligenţă Artificială)!</li></ul>...şi altele!>",
+            "img": ""
+        },
+        "invite": {
+            "bot": {
+                "header": "Invitaţi BotBiscuit în serverul dumneavoastră",
+                "text": "Apăsaţi aici pentru a invita BotBiscuit in serverul dumneavoastră!",
+                "extraText": "Acesta vă va duce pe o pagină de Discord, şi vă v-a ruga să ii acordaţi permisiunea de Administrator pentru BotBiscuit. Dacă refuzaţi, BotBiscuit nu poate funcţiona corect, deci vă recomand să le acceptaţi."
+            },
+            "server": {
+                "header": "Alăturaţi-vă serverului de Discord BotBiscuit!",
+                "text": "Alăturaţi-vă serverului pentru a primi noutăţi despre funcţii noi, updateuri şi <i>poate</i> câteva priviri la nişte comenzi dinainte de a fi lansate!"
+                
+            }
+        }
     }
 }
