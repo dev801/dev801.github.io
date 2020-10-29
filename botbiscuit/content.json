@@ -147,7 +147,7 @@
 	},
 	"Српски": {
         "general": {
-            "btt": "Назад на врх</a><small>превод обезбедио: spacexplorer_#5086</small><a>"
+            "btt": "Назад на врх</a><small><br>превод обезбедио: spacexplorer_#5086</small><a>"
         },
         "nav": {
             "overview": "Преглед",
