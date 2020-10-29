@@ -135,13 +135,13 @@
         },
         "invite": {
             "bot": {
-                "header": "BotBiscuitをDiscordさーばーへまねきます！",
-                "text": "これをくりっくしてBotBiscuitをDiscordさーばーへまねきます！",
-                "extraText": ""
+                "header": "Invitez BotBiscuit sur votre serveur!",
+                "text": "Cliquez ici pour inviter BotBiscuit sur votre serveur!",
+                "extraText": "Cela vous mènera à une page Discord et vous demandera d'approuver les autorisations d'administrateur pour BotBiscuit. Si vous refusez ces autorisations, BotBiscuit ne peut pas fonctionner comme prévu, je vous recommande donc de les approuver."
             },
             "server": {
-                "header": "BotBiscuitのさーばーにさんか！",
-                "text": ""
+                "header": "Rejoignez le serveur Discord de BotBiscuit!",
+                "text": "Rejoignez le serveur de BotBiscuit pour obtenir des nouvelles sur les nouvelles fonctionnalités, les mises à jour et <i>peut-être</i> quelques aperçus des commandes à venir!"
             }
         }
 	},
