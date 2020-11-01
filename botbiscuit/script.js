@@ -1,3 +1,6 @@
+colourMode = false;
+oof = false;
+
 async function loadContent() {
     select = document.getElementById("langSelect");
     language = select.options[select.selectedIndex].value
@@ -51,5 +54,42 @@ async function loadContent() {
             console.error(`Could not change the content of ${toReplace[i]}`)
             continue;
         }
+    }
+}
+
+function switchColourMode() {
+    console.log("Called")
+    // I hope you're happy now duke
+
+    // anti-oof protection 'cause browsers are weird
+    if (oof == false) {
+        return oof = !oof;
+    }
+    oof = false;
+
+
+    colourMode = !colourMode;
+    if (colourMode == true) {
+        document.body.className = "dark";
+        document.getElementsByTagName("nav")[0].className += " dark";
+        document.getElementById("logoText").className = "dark";
+
+        for (i = 0; i < document.getElementsByClassName("nav-link").length; i++) {
+            document.getElementsByClassName("nav-link")[i].className += " dark";
+        }
+
+        document.getElementById("footerBack").className += " dark";
+        document.getElementById("topBack").className += " dark";
+    } else {
+        document.body.className = "";
+        document.getElementsByTagName("nav")[0].className = document.getElementsByTagName("nav")[0].className.replace(" dark", "");
+        document.getElementById("logoText").className = "";
+    
+        for (i = 0; i < document.getElementsByClassName("nav-link").length; i++) {
+            document.getElementsByClassName("nav-link")[i].className = document.getElementsByClassName("nav-link")[i].className.replace("dark", "");
+        }
+
+        document.getElementById("footerBack").className = document.getElementById("footerBack").className.replace(" dark", "");
+        document.getElementById("topBack").className = document.getElementById("topBack").className.replace(" dark", "");
     }
 }

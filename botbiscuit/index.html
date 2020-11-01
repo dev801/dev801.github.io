@@ -31,7 +31,7 @@
         <nav class="navbar-expand-md navbar navbar-light bg-light fixed-top">
             <a class="navbar-brand" href="#">
                 <img src="favicon.png" width="30px" height="30px" class="d-inline-block align-top" alt="BotBiscuit">
-                <span style="color: #414141;">BotBiscuit</span>
+                <span style="color: #414141;" id="logoText">BotBiscuit</span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsable" aria-controls="navbarCollapsable" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             
@@ -59,7 +59,7 @@
         <main style="margin-top: 65px;">
             <!-- HEADER -->
             <div class="container">
-                <div class="jumbotron bg-light">
+                <div class="jumbotron bg-light" id="topBack">
                     <h1 class="display-4">
                         <span class="jsonReplace" id="header-header"></span>
                     </h1>
@@ -111,10 +111,19 @@
 
         <!-- FOOTER -->
         <footer style="padding-top: 10px; width: 100%;">
-            <div style="text-align: center; padding-top: 7px; padding-bottom: 7px;" class="bg-light">
+            <div style="text-align: center; padding-top: 7px; padding-bottom: 7px;" id="footerBack" class="bg-light">
                 &copy; George-801/dev-801 2020
                 <span><a href="#"><span class="jsonReplace" id="general-btt"></span></a></span>
+                <abbr title="The Dukemz Button">
+                    <div style="float: right; padding-right: 7px;" onclick="switchColourMode();">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </abbr>
             </div>
+            
         </footer>
     </body>
 </html>
