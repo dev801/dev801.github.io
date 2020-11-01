@@ -2,6 +2,11 @@ colourMode = false;
 oof = false;
 
 async function loadContent() {
+    callColourSwitch = false;
+    if (Boolean(localStorage.getItem("colourMode"))) {
+        callColourSwitch = true;
+    }
+
     select = document.getElementById("langSelect");
     language = select.options[select.selectedIndex].value
     if (language == undefined) {
@@ -55,20 +60,27 @@ async function loadContent() {
             continue;
         }
     }
+
+    if (callColourSwitch) {
+        switchColourMode(true);
+        document.getElementById("dukeBtn").checked = true;
+    }
 }
 
-function switchColourMode() {
+function switchColourMode(passThing) {
     console.log("Called")
     // I hope you're happy now duke
 
     // anti-oof protection 'cause browsers are weird
-    if (oof == false) {
-        return oof = !oof;
+    if (!passThing) {
+        if (oof == false) {
+            return oof = !oof;
+        }
+        oof = false;
     }
-    oof = false;
-
 
     colourMode = !colourMode;
+    localStorage.setItem("colourMode", colourMode);
     if (colourMode == true) {
         document.body.className = "dark";
         document.getElementsByTagName("nav")[0].className += " dark";
@@ -92,4 +104,5 @@ function switchColourMode() {
         document.getElementById("footerBack").className = document.getElementById("footerBack").className.replace(" dark", "");
         document.getElementById("topBack").className = document.getElementById("topBack").className.replace(" dark", "");
     }
+    
 }
