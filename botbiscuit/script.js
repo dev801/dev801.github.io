@@ -1,9 +1,11 @@
 colourMode = false;
 oof = false;
+loadedOnce = false;
 
 async function loadContent() {
     callColourSwitch = false;
-    if (Boolean(localStorage.getItem("colourMode"))) {
+    
+    if (Boolean(localStorage.getItem("colourMode")) && !loadedOnce) {
         callColourSwitch = true;
     }
 
@@ -65,6 +67,7 @@ async function loadContent() {
         switchColourMode(true);
         document.getElementById("dukeBtn").checked = true;
     }
+    loadedOnce = true;
 }
 
 function switchColourMode(passThing) {
