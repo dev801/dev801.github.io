@@ -62,5 +62,5 @@ async function loadPageData() {
 }
 
 function getManualPath() {
-    return window.location.href.slice(pageDataPrefix.length).substring(0, window.location.href.slice(pageDataPrefix.length).findIndex("#"));
+    return window.location.href.slice(pageDataPrefix.length).substring(0, window.location.href.slice(pageDataPrefix.length).indexOf("#"));
 }
