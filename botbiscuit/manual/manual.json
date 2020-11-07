@@ -11,7 +11,7 @@
         },
         "commands": {
             "title": "Commands",
-            "content": "All commands"
+            "content": "<h2>All commands</h2><h3>Economy</h3><ul><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/addbiscuitentry\">addbiscuitentry</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/biscuits\">biscuits</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/buy\">buy</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/createbiscuitaccount\">createbiscuitaccount</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/givebiscuits\">givebiscuits</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/shop\">shop</a></li></ul>"
         },
         "commands/addbiscuitentry": {
             "title": "addbiscuitentry",
