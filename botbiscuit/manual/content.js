@@ -58,10 +58,11 @@ async function loadPageData() {
         document.getElementById("pgTitle").innerHTML = manualJSON.title;
         document.getElementById("pgContent").innerHTML = manualJSON.content;
     } catch (e) {
-        document.getElementById("pgContent").innerHTML = `Something went horribly wrong with loading the page content - this is most likely because i messed up a JSON file somewhere.<br><kbd>${e.stack}</kbd>`
+        document.getElementById("pgContent").innerHTML = `Something went horribly wrong with loading the page content - this is most likely because I messed up a JSON file somewhere.<br><kbd>${e.stack}</kbd>`
     }
 }
 
 function getManualPath() {
-    return window.location.href.slice(pageDataPrefix.length).substring(0, window.location.href.slice(pageDataPrefix.length).indexOf("#"));
+    if (window.location.href.slice(pageDataPrefix.length).indexOf("#") != -1) return window.location.href.slice(pageDataPrefix.length).substring(0, window.location.href.slice(pageDataPrefix.length).indexOf("#"));
+    return window.location.href.slice(pageDataPrefix.length);
 }
