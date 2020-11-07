@@ -41,7 +41,7 @@ async function loadSidebar() {
 
 async function loadPageData() {
     try {
-        manualJSONURL = "https://dev801.github.io/botbiscuit/manual/manual.json"
+        manualJSONURL = "https://dev801.github.io/botbiscuit/manual/manual.json";
         manualJSON = undefined;
 
         select = document.getElementById("langSelect");
@@ -51,6 +51,7 @@ async function loadPageData() {
         }
         await $.getJSON(manualJSONURL, function(json) {
             pageDataPrefix = json["prefix"]
+            //pageDataPrefix = "http://localhost/dev801-dev-3/botbiscuit/manual/"
             manualJSON = json[language][getManualPath()]
         });
 
