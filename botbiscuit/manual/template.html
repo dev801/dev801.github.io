@@ -23,6 +23,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
         <link type="text/css" rel="stylesheet" href="style.css">
+        <script src="content.js"></script>
 
         <title>BotBiscuit Manual ・ </title>
 
@@ -45,15 +46,15 @@
             });
         </script>
     </head>
-    <body>
+    <body onload="loadSidebar()">
         <div class="wrapper">
             <!-- SIDEBAR -->
             <nav id="sidebar">
                 <div class="sidebar-header">
-                    <h3>Bootstrap sidebar</h3>
+                    <h3 id="sidebarHeader"></h3>
                 </div>
 
-                <ul class="list-unstyled components">
+                <ul class="list-unstyled components" id="sidebarContent">
                     <p>Dummy heading</p>
                     <li class="active">
                         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
@@ -93,6 +94,11 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
+                <form style="margin-top: -30px; padding: 5px;">
+                    <select onchange="loadSidebar()" name="lang" class="form-control" id="langSelect">
+                        <option name="en">English</option>
+                    </select>
+                </form>
             </nav>
 
             <!-- PAGE CONTENT -->
@@ -106,6 +112,11 @@
                             <div class="menuToggleButton"></div>
                             <div class="menuToggleButton"></div>
                         </button>
+
+                        <h1>
+                            <!-- PAGE TITLE -->
+                            <span style="margin-left: 10px;" id="pgTitle"></span>
+                        </h1>
                     </div>
                 </nav>
 
