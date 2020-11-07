@@ -7,8 +7,26 @@
                 "link": "https://dev801.github.io/botbiscuit/manual/about"
             },
             {
-                "name": "exampleeeee",
-                "link": "#"
+                "name": "All Commands",
+                "heading": true
+            },
+            {
+                "name": "Economy",
+                "link": "",
+                "contents": [
+                    {
+                        "name": "addbiscuitentry",
+                        "link": "https://dev801.github.io/botbiscuit/manual/commands/addbiscuitentry"
+                    },
+                    {
+                        "name": "biscuits",
+                        "link": "https://dev801.github.io/botbiscuit/manual/commands/biscuits"
+                    },
+                    {
+                        "name": "buy",
+                        "link": "https://dev801.github.io/botbiscuit/manual/commands/buy"
+                    }
+                ]
             },
             {
                 "name": "exapmpfamklaeee",

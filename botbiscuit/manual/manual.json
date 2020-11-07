@@ -8,6 +8,18 @@
         "about": {
             "title": "About BotBiscuit",
             "content": ""
+        },
+        "commands/addbiscuitentry": {
+            "title": "addbiscuitentry",
+            "content": "Adds a specified user to the database blah blah blah"
+        },
+        "commands/biscuits": {
+            "title": "biscuits",
+            "content": "See how many biscuits you have blah blah blah"
+        },
+        "commands/buy": {
+            "title": "buy",
+            "content": "Buy stuff"
         }
     }
 }
