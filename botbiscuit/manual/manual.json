@@ -11,11 +11,11 @@
         },
         "commands": {
             "title": "Commands",
-            "content": "<h2>All commands</h2><h3>Economy</h3><ul><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/addbiscuitentry\">addbiscuitentry</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/biscuits\">biscuits</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/buy\">buy</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/createbiscuitaccount\">createbiscuitaccount</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/givebiscuits\">givebiscuits</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/shop\">shop</a></li></ul>"
+            "content": "<h3>Economy</h3><ul><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/addbiscuitentry\">addbiscuitentry</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/biscuits\">biscuits</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/buy\">buy</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/createbiscuitaccount\">createbiscuitaccount</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/givebiscuits\">givebiscuits</a></li><li><a href=\"https://dev801.github.io/botbiscuit/manual/commands/shop\">shop</a></li></ul>"
         },
         "commands/addbiscuitentry": {
             "title": "addbiscuitentry",
-            "content": "Adds a specified user to the database blah blah blah"
+            "content": "<h2><kbd>bb!addbiscuitentry &lt;user&gt;</kbd></h2><p>This command adds a specified user to the Biscuits database. If a user is in this database, they can use BotBiscuit's economy. This command is really only a last resort for helping people who can't fingure out how to make an account by themselves - BotBiscuit automaatically creates accounts for people when they join a server with BotBiscuit in, and people can also use <kbd>bb!createbiscuitaccount</kbd> to create an account for themselves.</p><h2>Usage</h2><p><kbd>bb!addbiscuitentry &lt;user&gt;</kbd> where <kbd>&lt;user&gt;</kbd> is either a mention or a user ID.</p><h2>Example</h2><img src=\"example.png\" style=\"border-radius: 5px;\">"
         },
         "commands/biscuits": {
             "title": "biscuits",
