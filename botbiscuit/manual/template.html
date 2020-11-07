@@ -46,7 +46,7 @@
             });
         </script>
     </head>
-    <body onload="loadSidebar()">
+    <body onload="loadSidebar();loadPageData();">
         <div class="wrapper">
             <!-- SIDEBAR -->
             <nav id="sidebar">
@@ -57,7 +57,7 @@
                 <ul class="list-unstyled components" id="sidebarContent"></ul>
 
                 <form style="margin-top: -30px; padding: 5px;">
-                    <select onchange="loadSidebar()" name="lang" class="form-control" id="langSelect">
+                    <select onchange="loadSidebar();loadPageData();" name="lang" class="form-control" id="langSelect">
                         <option name="en">English</option>
                     </select>
                 </form>
