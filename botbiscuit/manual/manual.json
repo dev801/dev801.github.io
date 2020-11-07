@@ -31,7 +31,7 @@
         },
         "commands/givebiscuits": {
             "title": "givebiscuits",
-            "content": "Give people biscuits"
+            "content": "<h2><kbd>bb!givebiscuits &lt;user&gt; &lt;number&gt;</kbd></h2><p>This command allows you to give biscuits to other users.</p><h2>Usage</h2><p><kbd>bb!givebiscuits &lt;user&gt; &lt;number&gt;</kbd> where <kdb>&lt;user&gt;</kbd> is a mention or user ID and <kbd>&lt;number&gt;</kbd> is a positive interger less than your biscuit balance.</p><h2>Aliases</h2><p><kbd>bb!gb</kbd></p><h2>Permission Level</h2><p>Verified</p><h2>Example</h2><img src=\"example.png\" style=\"border-radius: 5px;\">"
         },
         "commands/shop": {
             "title": "shop",
