@@ -27,7 +27,7 @@
         },
         "commands/createbiscuitaccount": {
             "title": "createbiscuitaccount",
-            "content": "Create a biscuit account"
+            "content": "<h2><kbd>bb!createbiscuitaccount</kbd></h2><p>This command creates an entry in the biscuits database for the person using it.</p><h2>Usage</h2><p><kbd>bb!createbiscuitaccount</kbd></p><h2>Permission Level</h2><p>Verified</p><h2>Example</h2><img src=\"example.png\" style=\"border-radius: 5px;\">"
         },
         "commands/givebiscuits": {
             "title": "givebiscuits",
