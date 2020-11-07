@@ -23,7 +23,7 @@
         },
         "commands/buy": {
             "title": "buy",
-            "content": "<h2><kbd>bb!buy &lt;path&gt;</kbd></h2><p>This command allows you to use your biscuits to buy items from the shop.</p><h2>Usage</h2><p><kbd>bb!buy &lt;path&gt;</kbd> where &lt;path&gt; is the path in the shop of the item you wish to buy. When viewing an item in the shop, a list of numbers will appear next to the name of the item (as shown below) - this is the path.</p><img src=\"path.png\" style=\"border-radius: 5px; margin-bottom: 5px;\">"
+            "content": "<h2><kbd>bb!buy &lt;path&gt;</kbd></h2><p>This command allows you to use your biscuits to buy items from the shop.</p><h2>Usage</h2><p><kbd>bb!buy &lt;path&gt;</kbd> where &lt;path&gt; is the path in the shop of the item you wish to buy. When viewing an item in the shop, a list of numbers will appear next to the name of the item (as shown below) - this is the path.</p><img src=\"path.png\" style=\"border-radius: 5px; margin-bottom: 5px;\"><h2>Example</h2><img src=\"example1.png\" style=\"border-radius: 5px;\">"
         },
         "commands/createbiscuitaccount": {
             "title": "createbiscuitaccount",
