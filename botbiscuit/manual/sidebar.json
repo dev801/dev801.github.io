@@ -3,10 +3,6 @@
         "title": "BotBiscuit Manual",
         "contents": [
             {
-                "name": "heading test",
-                "heading": true
-            },
-            {
                 "name": "About",
                 "link": "https://dev801.github.io/botbiscuit/manual/about"
             },

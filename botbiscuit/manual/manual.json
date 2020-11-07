@@ -1,0 +1,13 @@
+{
+    "prefix": "https://dev801.github.io/botbiscuit/manual/",
+    "English": {
+        "template.html": {
+            "title": "This is just a template.",
+            "content": "Yeah idk why you're here, this is just a template for the rest of the pages in the manual..."
+        },
+        "about": {
+            "title": "About BotBiscuit",
+            "content": ""
+        }
+    }
+}
