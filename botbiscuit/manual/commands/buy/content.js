@@ -63,6 +63,14 @@ async function loadPageData() {
 }
 
 function getManualPath() {
-    if (window.location.href.slice(pageDataPrefix.length).indexOf("#") != -1) return window.location.href.slice(pageDataPrefix.length).substring(0, window.location.href.slice(pageDataPrefix.length).indexOf("#"));
+    if (window.location.href.slice(pageDataPrefix.length).indexOf("#") != -1) {
+        if (window.location.href.slice(pageDataPrefix.length).substring(0, window.location.href.slice(pageDataPrefix.length).indexOf("#")).charAt(window.location.href.slice(pageDataPrefix.length).substring(0, window.location.href.slice(pageDataPrefix.length).indexOf("#")).length - 1) != "/") {
+            return window.location.href.slice(pageDataPrefix.length).substring(0, window.location.href.slice(pageDataPrefix.length).indexOf("#"));
+        } else {
+            return window.location.href.slice(pageDataPrefix.length).substring(0, window.location.href.slice(pageDataPrefix.length).indexOf("#")).substring(0, window.location.href.slice(pageDataPrefix.length).substring(0, window.location.href.slice(pageDataPrefix.length).indexOf("#")).length - 1)
+        }
+    } else if (window.location.href.slice(pageDataPrefix.length).charAt(window.location.href.slice(pageDataPrefix.length).length - 1) == "/") {
+        return window.location.href.slice(pageDataPrefix.length).substring(0, window.location.href.slice(pageDataPrefix.length).length - 2)
+    }
     return window.location.href.slice(pageDataPrefix.length);
 }
