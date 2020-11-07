@@ -120,3 +120,8 @@ main {
 #pgContent {
     padding: 10px;
 }
+
+#sidebarContent p {
+    margin-bottom: 0px;
+    font-size: 30px;
+}

@@ -9,6 +9,10 @@
             "title": "About BotBiscuit",
             "content": ""
         },
+        "commands": {
+            "title": "Commands",
+            "content": "All commands"
+        },
         "commands/addbiscuitentry": {
             "title": "addbiscuitentry",
             "content": "Adds a specified user to the database blah blah blah"
