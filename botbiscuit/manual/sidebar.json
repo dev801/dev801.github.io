@@ -25,6 +25,18 @@
                     {
                         "name": "buy",
                         "link": "https://dev801.github.io/botbiscuit/manual/commands/buy"
+                    },
+                    {
+                        "name": "createbiscuitaccount",
+                        "link": "https://dev801.github.io/botbiscuit/manual/commands/createbiscuitaccount"
+                    },
+                    {
+                        "name": "givebiscuits",
+                        "link": "https://dev801.github.io/botbiscuit/manual/commands/givebiscuits"
+                    },
+                    {
+                        "name": "shop",
+                        "link": "https://dev801.github.io/botbiscuit/manual/commands/shop"
                     }
                 ]
             },

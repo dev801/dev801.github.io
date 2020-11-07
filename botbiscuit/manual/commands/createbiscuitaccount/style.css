@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Atlata;
+    src: url(https://dev801.github.io/botbiscuit/Alata-Regular.ttf)
+}
+
+@font-face {
+    font-family: KosugiMaru;
+    src: url(https://dev801.github.io/botbiscuit/KosugiMaru-Regular.ttf)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
+
+body {
+    font-family: Atlata, 'Noto Sans', KosugiMaru, arial;
+    background: #fafafa;
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+#topNavbar {
+    position: sticky;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    background: #333333;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #222222;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    background: #444444;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #0085a1;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #222222;
+}
+
+.menuToggleButton {
+    width: 20px;
+    height: 4px;
+    background-color: #ffffff;
+    margin: 4px 0;
+}
+
+main {
+    width: 100%;
+}
+
+#pgContent {
+    padding: 10px;
+}
+
+#sidebarContent p {
+    margin-bottom: 0px;
+    font-size: 30px;
+}

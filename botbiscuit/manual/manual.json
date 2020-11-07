@@ -24,6 +24,18 @@
         "commands/buy": {
             "title": "buy",
             "content": "Buy stuff"
+        },
+        "commands/createbiscuitaccount": {
+            "title": "createbiscuitaccount",
+            "content": "Create a biscuit account"
+        },
+        "commands/givebiscuits": {
+            "title": "givebiscuits",
+            "content": "Give people biscuits"
+        },
+        "commands/shop": {
+            "title": "shop",
+            "content": "Look at the shop"
         }
     }
 }
