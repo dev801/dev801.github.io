@@ -19,11 +19,11 @@
         },
         "commands/biscuits": {
             "title": "biscuits",
-            "content": "<h2><kbd>bb!biscuits [user]</kbd></h2><p>This command shows you either your own biscuit balance or the biscuit balance of any other user.</p><h2>Usage</h2><p><kbd>bb!biscuits [user]</kbd> where <kbd>[user]</kbd> is an optional mention or user ID.</p><h2>Aliases</h2><p><kbd>bb!b</kbd></p><h2>Example</h2><img src=\"example1.png\" style=\"border-radius: 5px; padding-bottom: 10px; padding-right: 5px;\"><img src=\"example2.png\" style=\"border-radius: 5px;\">"
+            "content": "<h2><kbd>bb!biscuits [user]</kbd></h2><p>This command shows you either your own biscuit balance or the biscuit balance of any other user.</p><h2>Usage</h2><p><kbd>bb!biscuits [user]</kbd> where <kbd>[user]</kbd> is an optional mention or user ID.</p><h2>Aliases</h2><p><kbd>bb!b</kbd></p><h2>Example</h2><img src=\"example1.png\" style=\"border-radius: 5px; margin-bottom: 10px; margin-right: 10px;\"><img src=\"example2.png\" style=\"border-radius: 5px;\">"
         },
         "commands/buy": {
             "title": "buy",
-            "content": "Buy stuff"
+            "content": "<h2><kbd>bb!buy &lt;path&gt;</kbd></h2><p>This command allows you to use your biscuits to buy items from the shop.</p><h2>Usage</h2><p><kbd>bb!buy &lt;path&gt;</kbd> where &lt;path&gt; is the path in the shop of the item you wish to buy. When viewing an item in the shop, a list of numbers will appear next to the name of the item (as shown below) - this is the path.</p><img src=\"path.png\" style=\"border-radius: 5px; margin-bottom: 5px;\">"
         },
         "commands/createbiscuitaccount": {
             "title": "createbiscuitaccount",
