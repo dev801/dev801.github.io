@@ -19,7 +19,7 @@
         },
         "commands/biscuits": {
             "title": "biscuits",
-            "content": "<h2><kbd>bb!biscuits [user]</kbd></h2><p>This command shows you either your own biscuit balance or the biscuit balance of any other user.</p><h2>Usage</h2><p><kbd>bb!biscuits [user]</kbd> where <kbd>[user]</kbd> is an optional mention or user ID.</p><h2>Aliases</h2><p><kbd>bb!b</kbd></p><h2>Example</h2><img src=\"example1.png\" style=\"border-radius: 5px;\"><img src=\"example2.png\" style=\"border-radius: 5px;\">"
+            "content": "<h2><kbd>bb!biscuits [user]</kbd></h2><p>This command shows you either your own biscuit balance or the biscuit balance of any other user.</p><h2>Usage</h2><p><kbd>bb!biscuits [user]</kbd> where <kbd>[user]</kbd> is an optional mention or user ID.</p><h2>Aliases</h2><p><kbd>bb!b</kbd></p><h2>Example</h2><img src=\"example1.png\" style=\"border-radius: 5px; padding-bottom: 10px; padding-right: 5px;\"><img src=\"example2.png\" style=\"border-radius: 5px;\">"
         },
         "commands/buy": {
             "title": "buy",
