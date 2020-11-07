@@ -31,11 +31,11 @@
         },
         "commands/givebiscuits": {
             "title": "givebiscuits",
-            "content": "<h2><kbd>bb!givebiscuits &lt;user&gt; &lt;number&gt;</kbd></h2><p>This command allows you to give biscuits to other users.</p><h2>Usage</h2><p><kbd>bb!givebiscuits &lt;user&gt; &lt;number&gt;</kbd> where <kdb>&lt;user&gt;</kbd> is a mention or user ID and <kbd>&lt;number&gt;</kbd> is a positive interger less than your biscuit balance.</p><h2>Aliases</h2><p><kbd>bb!gb</kbd></p><h2>Permission Level</h2><p>Verified</p><h2>Example</h2><img src=\"example.png\" style=\"border-radius: 5px;\">"
+            "content": "<h2><kbd>bb!givebiscuits &lt;user&gt; &lt;number&gt;</kbd></h2><p>This command allows you to give biscuits to other users.</p><h2>Usage</h2><p><kbd>bb!givebiscuits &lt;user&gt; &lt;number&gt;</kbd> where <kdb>&lt;user&gt;</kbd> is a mention or user ID and <kbd>&lt;number&gt;</kbd> is a positive integer less than your biscuit balance.</p><h2>Aliases</h2><p><kbd>bb!gb</kbd></p><h2>Permission Level</h2><p>Verified</p><h2>Example</h2><img src=\"example.png\" style=\"border-radius: 5px;\">"
         },
         "commands/shop": {
             "title": "shop",
-            "content": "Look at the shop"
+            "content": "<h2><kbd>bb!shop &lt;path&gt;</kbd></h2><p>This command lets you see all the items currently on sale in the shop.</p><h2>Usage</h2><p><kbd>bb!shop &lt;path&gt;</kbd> where <kbd>&lt;path&gt;</kbd> is the path to the item or category you want to view. Each item or category has a number next to it when you view the shop - if you at a space and then that number to the end of the path you are currently viewing, you will view that item/category.</p><h2>Permission Level</h2><p>Verified</p><h2>Example</h2><img src=\"path.png\" style=\"border-radius: 5px;\">"
         }
     }
 }
