@@ -1,6 +1,12 @@
 {
     "posts": [
 		{
+			"number": "#10",
+			"title": "Why <i>another</i> redesign?",
+			"date": "10/10/2020",
+			"content": "A: I can make things more responsive now, B: the old design wasn't exactly going to win any awards for good design."
+		},
+		{
 			"number": "#9",
 			"title": "New stuff!?",
             "date": "25/08/2020",

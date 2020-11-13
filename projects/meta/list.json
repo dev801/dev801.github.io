@@ -1,6 +1,11 @@
 {
 	"list": [
 		{
+			"name": "Python Pokémon",
+			"link": "pythonpokemon",
+			"state": "Finished"
+		},
+		{
 			"name": "BotBiscuit",
 			"link": "botbiscuit",
 			"state": "0.3"

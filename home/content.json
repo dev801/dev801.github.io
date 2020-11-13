@@ -35,14 +35,14 @@
                 "text": "So what on earth actually is this page? It's pretty much just a random page for me to chuck all the weird things I make/half make onto. Don't expect anything actually useful - you're never gonna get it!"
             },
             "2": {
+                "title": "Pokémon thingy",
+                "date": "13/11/20",
+                "text": "Check the projects page to find my first ever python project to use pygame - how did I do?"
+            },
+            "3": {
                 "title": "Discord Mk2",
                 "date": "17/10/2020",
                 "text": "Just realised I never put a link to the other discord servers. <a href=\"https://discord.gg/Peae5Mt\">Here</a>'s the BotBiscuit server, and <a href=\"https://discord.gg/XgrhgEN\">here</a>'s the general hangout server."
-            },
-            "3": {
-                "title": "Why <i>another</i> redesign?",
-                "date": "10/10/2020",
-                "text": "A: I can make things more responsive now, B: the old design wasn't exactly going to win any awards for good design."
             }
         },
         "phone": {
