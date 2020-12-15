@@ -44,7 +44,10 @@
                 "name": "Moderation",
                 "link": "",
                 "contents": [
-                    
+                    {
+                        "name": "ban",
+                        "link": "https://dev801.github.io/botbiscuit/manual/commands/ban"
+                    }
                 ]
             }
         ]

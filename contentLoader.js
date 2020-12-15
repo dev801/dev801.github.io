@@ -1,7 +1,7 @@
 async function loadContent() {
     select = document.getElementById("langSelect");
     language = undefined;
-    if (!select == undefined) {
+    if (!(select == undefined)) {
         language = select.options[select.selectedIndex].value
     }
     if (language == undefined) {
