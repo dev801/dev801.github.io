@@ -7,25 +7,25 @@
         },
         "carousel": {
             "home": {
-                "link": "../home",
+                "link": "../projects/botbiscuit",
                 "bg": "",
                 "image": "testbanner.png",
-                "title": "Redesign! Again!",
-                "text": "yup, one more time..."
+                "title": "BotBiscuit is now public!",
+                "text": "Check it out!"
             },
             "projects": {
-                "link": "../projects",
+                "link": "../projects/pythonpokemon",
                 "bg": "",
                 "image": "testbanner.png",
-                "title": "Placeholder",
-                "text": "yeeeet"
+                "title": "Python Pokémon?",
+                "text": "1st attempt at using pygame. Actually not <i>that</i> bad."
             },
             "code": {
-                "link": "../code",
+                "link": "../projects/cuberunner",
                 "bg": "",
                 "image": "testbanner.png",
-                "title": "Placeholder #2",
-                "text": "yeeeet #2"
+                "title": "Cuberunner",
+                "text": "An <i>awful</i> Unity game."
             }
         },
         "info": {

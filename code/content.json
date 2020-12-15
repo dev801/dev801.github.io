@@ -14,11 +14,11 @@
                 "text": "Check it out!"
             },
             "projects": {
-                "link": "../projects/discordbots",
+                "link": "../projects/pythonpokemon",
                 "bg": "",
                 "image": "testbanner.png",
-                "title": "More Discord bots!",
-                "text": ""
+                "title": "Python Pokémon?",
+                "text": "1st attempt at using pygame. Actually not <i>that</i> bad."
             },
             "code": {
                 "link": "../projects/cuberunner",
