@@ -23,7 +23,7 @@ async function loadPosts() {
             </div>
             <div class="container">
                 <div class="row">
-                    <span>${postsJSON[i].content}</span>
+                    <span style="max-width: 100%;">${postsJSON[i].content}</span>
                 </div>
             </div>
         </div>
