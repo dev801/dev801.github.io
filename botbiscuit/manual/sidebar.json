@@ -31,6 +31,10 @@
                         "link": "https://dev801.github.io/botbiscuit/manual/commands/createbiscuitaccount"
                     },
                     {
+                        "name": "daily",
+                        "link": "https://dev801.github.io/botbiscuit/manual/commands/daily"
+                    },
+                    {
                         "name": "givebiscuits",
                         "link": "https://dev801.github.io/botbiscuit/manual/commands/givebiscuits"
                     },
