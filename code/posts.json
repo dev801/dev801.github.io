@@ -7,6 +7,12 @@
             "content": "This is the nerd page. Otherwise known as the code page. I'll post code for finished projects here, and the occasional random programming thing (normally rants 😅)."
         },
 		{
+			"number": "#4",
+			"date": "20/12/2020",
+			"title": "Still making a game in Processing 3",
+			"content": "I'm still at it. Since last time, I managed to mess up the character movement thing twice resulting in accidentally summoning an army of the player <i>twice</i>. I also managed to create a parallax effect with the collision boxes - DEFINITELY not something I wanted. Apart from that, I made an HUD system - there's now a way to overlay sprites over the game and interact with them. The character movement thing finally works too - the player seems to have finally forgotten how to teleport (which is a good thing). You'll find the most recent version of the source code <a href=\"dls/20.12.20/ProcessingGameThing.zip\">here</a>."
+		},
+		{
 			"number": "#3",
 			"date": "13/11/2020",
 			"title": "Making a game thing in Processing 3",

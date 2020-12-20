@@ -1,2 +1,3 @@
 dev801.github.io/projects/codehub/meta.json
 dev801.github.io/projects/cuberunner/meta.json
+dev801.github.io/projects/faith/meta.json
