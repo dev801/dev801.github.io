@@ -34,7 +34,7 @@ function loadFooter() {
     for (i = 0; i < footerDivs.length; i++) {
         footerDivs[i].innerHTML = `
         <div style="width: 100%; padding: 10px;">
-            <span class="d-inline-block">&copy; dev801 2020</span>
+            <span class="d-inline-block">&copy; dev801 2021</span>
             <select onchange="loadContent()" name="lang" class="form-control d-inline-block" id="langSelect" style="position: absolute; right: 10px; bottom: 5px; width: fit-content;">
                 <option name="en">English</option>
                 <option name="ja">日本語</option>
