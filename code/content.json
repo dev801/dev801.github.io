@@ -29,7 +29,8 @@
             }
         },
         "phone": {
-            "image": "testbanner.png"
+            "image": "testbanner.png",
+            "title": "Code"
         }
     },
     "日本語": {

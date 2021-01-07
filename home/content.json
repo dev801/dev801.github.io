@@ -46,7 +46,8 @@
             }
         },
         "phone": {
-            "image": "testbanner.png"
+            "image": "testbanner.png",
+            "title": "Home"
         }
     },
     "日本語": {

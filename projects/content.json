@@ -29,7 +29,8 @@
             }
         },
         "phone": {
-            "image": "testbanner.png"
+            "image": "testbanner.png",
+            "title": "Projects"
         }
     },
     "日本語": {

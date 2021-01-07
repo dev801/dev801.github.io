@@ -51,6 +51,14 @@
                     {
                         "name": "ban",
                         "link": "https://dev801.github.io/botbiscuit/manual/commands/ban"
+                    },
+                    {
+                        "name": "infractions",
+                        "link": "https://dev801.github.io/botbiscuit/manual/commands/infractions"
+                    },
+                    {
+                        "name": "kick",
+                        "link": "https://dev801.github.io/botbiscuit/manual/commands/kick"
                     }
                 ]
             }
