@@ -37,7 +37,7 @@ function loadFooter() {
             <span class="d-inline-block">&copy; dev801 2021</span>
             <select onchange="loadContent()" name="lang" class="form-control d-inline-block" id="langSelect" style="position: absolute; right: 10px; bottom: 5px; width: fit-content;">
                 <option name="en">English</option>
-                <option name="ja">日本語</option>
+                <!--<option name="ja">日本語</option>-->
             </select>
         </div>
         `;

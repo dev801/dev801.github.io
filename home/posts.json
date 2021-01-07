@@ -1,6 +1,18 @@
 {
     "posts": [
 		{
+			"number": "#12",
+			"title": "Pokémon thingy",
+			"date": "13/11/20",
+			"content": "Check the projects page to find my first ever python project to use pygame - how did I do?"
+		},
+		{
+			"number": "#11",
+			"title": "Discord Mk2",
+			"date": "17/10/2020",
+			"content": "Just realised I never put a link to the other discord servers. <a href=\"https://discord.gg/Peae5Mt\">Here</a>'s the BotBiscuit server, and <a href=\"https://discord.gg/XgrhgEN\">here</a>'s the general hangout server."
+		},
+		{
 			"number": "#10",
 			"title": "Why <i>another</i> redesign?",
 			"date": "10/10/2020",
