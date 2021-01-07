@@ -1,4 +1,4 @@
-async function loadContent() {
+async function loadContent(customPath) {
     select = document.getElementById("langSelect");
     language = undefined;
     if (!(select == undefined)) {
@@ -8,7 +8,8 @@ async function loadContent() {
         language = "English"
     }
     dataJSON = undefined;
-    await $.getJSON("content.json", function(json) {
+    if (customPath == undefined) customPath = "content.json"
+    await $.getJSON(customPath, function(json) {
         dataJSON = json[language];
     }).catch((err) => {
         console.error("Error loading page contents.")
