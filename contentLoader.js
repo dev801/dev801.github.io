@@ -18,7 +18,7 @@ async function loadContent(customPath) {
 
     toReplace = document.getElementsByClassName("jsonReplace");
     
-    await $.getJSON("content.json", function(json) {
+    await $.getJSON(customPath, function(json) {
         if (json["pageTitle"] != undefined) {
             document.title = json.pageTitle;
         }
