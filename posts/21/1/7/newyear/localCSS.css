@@ -1,3 +1,27 @@
 .title-text {
     margin-bottom: 0;
 }
+
+.page-title.hero-page {
+    margin-top: 10px;
+}
+
+.post-content {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.post-content p {
+    margin-bottom: inherit;
+}
+
+.hero-image {
+    margin-top: 66px;
+    min-height: 140px;
+    background-image: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),*/ url("hero.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
