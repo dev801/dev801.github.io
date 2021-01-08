@@ -1,9 +1,15 @@
 {
     "posts": [
+        {
+            "number": "#13",
+            "title": "Happy new year!",
+            "date": "1/1/2021",
+            "content": "It's 2021 now! That means this site's been up for just over a year! 🥳"
+        },
 		{
 			"number": "#12",
 			"title": "Pokémon thingy",
-			"date": "13/11/20",
+			"date": "13/11/2020",
 			"content": "Check the projects page to find my first ever python project to use pygame - how did I do?"
 		},
 		{
