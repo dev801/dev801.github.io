@@ -26,7 +26,7 @@
         <link type="text/css" rel="stylesheet" href="localCSS.css">
         <link type="text/css" rel="stylesheet" href="https://dev801.github.io/posts/postStyle.css">
         <link type="image/png" rel="icon" href="https://dev801.github.io/favicon.ico">
-        <script src="script.js"></script>
+        <!--<script src="script.js"></script>-->
         <script src="https://dev801.github.io/posts/postScript.js"></script>
         <script src="https://dev801.github.io/contentLoader.js"></script>
         <script src="https://dev801.github.io/extras.js"></script>
@@ -60,10 +60,10 @@
                         to mark one year of this site being up, I thought I'd take a look at the old versions of
                         this site. <small>oh this was such a bad idea</small>
                     </p>
-                    <h3>Version 1 <small>(designers, look away now, or risk throwing up when you see it)</small></h3>
+                    <h3 class="mb-0">Version 1</h3><p><small>designers, look away now, or risk throwing up when you see it</small></p>
                     <div class="row" style="max-width: 100%; margin-left: 0;">
-                        <div class="col-sm-6 col-md-4 col-xs-12 p-0">
-                            <p>
+                        <div class="col-sm-12 col-md-12 col-lg-4 col-xs-12 p-0">
+                            <p class="mr-1">
                                 Right then, let's get started. This is <i>by far</i> the most painful version of this
                                 site. I'm kind of embarrassed to show it, to be honest. But hey, it wasn't the worst
                                 thing in the world. The colour scheme used in this version is pretty much the same as
@@ -72,10 +72,55 @@
                                 for the bit you've been waiting for. Here's a screenshot of the homepage:
                             </p>
                         </div>
-                        <div class="col-sm-6 col-md-8 col-xs-12 p-0">
+                        <div class="col-sm-12 col-md-12 col-lg-8 col-xs-12 p-0">
                             <img src="img/v1-home.png" alt="paiiiiiiiiiiiiiiiin">
                         </div>
                     </div>
+                    <p>
+                        It's just pure <i>pain</i>. It looks worse than my program hub - and that's an achievement.
+                        You can't see where one post ends and the next begins, for some reason my logo is next
+                        to <i>every single post</i>, and the posts <i>aren't even centred</i>. Whilst it could
+                        quite easily be worse, it just looks disgusting. It wasn't at all responsive - the text 
+                        just became illegible when the page was viewed on mobile. Pretty much all of the pages on that
+                        version of the site looked like this. Oh, except for the SOSC page. That one wasn't
+                        <i>too</i> bad, but has since been removed from this site. One more bad thing about the
+                        development side of that site - none of the content was generated, meaning I had to go
+                        into the HTML file and manually add grid rows every time I wanted to make a new post.
+                        That was <i>not</i> a fun process. This version (or at least the one in use at the time
+                        of writing) of the site is pretty much built off of JSON files - if you poke around in
+                        the inspector for long enough you'll probably find the JSON file (or files) that make 
+                        up each of the pages. In fact, I think the only pages on my site that aren't generated
+                        from JSON files are these longer post pages...
+                    </p>
+                    <h3 class="mb-0">Version 2</h3><p><small>hey, it doesn't burn my eyes out when i look at it anymore</small></p>
+                    <div class="row" style="max-width: 100%; margin-left: 0;">
+                        <div class="col-sm-12 col-md-12 col-lg-4 col-xs-12 p-0">
+                            <p class="mr-1">
+                                Right then, version 2. This was the first version to use Bootstrap (although it was Bootstrap
+                                3). This meant that you could actually read the contents when on mobile! Yay! The colour
+                                scheme used for this version is exactly the same as the colour scheme I currently use. The
+                                thing about this version that annoys me most is the fact that none of the posts appear the 
+                                same height. This means you get a weird mess of differently sized boxes when you try to look
+                                at all of the posts. Here's a screenshot of the homepage:
+                            </p>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-8 col-xs-12 p-0">
+                            <img src="img/v2-home.png" alt="less pain">
+                        </div>
+                    </div>
+                    <p>
+                        This was also the first version to generate its content off of JSON files. That means
+                        I technically had the ability to use multiple languages on the site, but just forgot
+                        to implement it. The script I use now allows me to properly add versions of this site
+                        in other languages. However, due to the fact that the only languages I can speak at a 
+                        decent level are English, French and Japanese (and I still suck at French and Japanese),
+                        I haven't translated many pages.
+                    </p>
+                    <p class="mb-0">
+                        And that brings us up to today! This site still has quite a few issues I need to deal
+                        with, but it's good enough for now. Oh, and this post totally wasn't just an excuse
+                        to test out the new longer post system I just finished making 😅.
+                    </p>
                 </div>
             </div>
         </main>
