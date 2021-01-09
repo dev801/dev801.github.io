@@ -10,7 +10,7 @@ function loadNavbar(levels, active) {
     if (active == 3) code = " active";
     leDiv.innerHTML = `
     <nav class="navbar-expand-md navbar navbar-dark fixed-top">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="${extraLevels}../home">
                 <img src="${extraLevels}../navLg.png" width="30px" height="30px" class="d-inline-block align-top" alt="dev801">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsable" aria-controls="navbarCollapsable" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
