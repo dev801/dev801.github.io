@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: #1d1e1f;
+}
+
+.bg {
+    height: 100%;
+    z-index: -1;
+}
+
+.bg img {
+    height: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.taskbar {
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+}
+
+.taskbar-content {
+    padding: 10px;
+    background-color: #0c0c0ca2;
+    backdrop-filter: blur(6px);
+    overflow: hidden;
+    max-height: 100px;
+    font-size: 10pt;
+}
+
+.taskbar-content img {
+    max-width: 38px;
+}
+
+.taskbar-search {
+    overflow: hidden;
+    border-radius: 20px;
+}

@@ -1,0 +1,6 @@
+{
+	"name": "Settings",
+	"description": "Change this thing's settings.",
+	"mainFile": "index.html",
+	"version": "0.0.1"
+}

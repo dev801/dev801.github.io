@@ -1,0 +1,27 @@
+{
+    "meta": {
+        "language": "English",
+        "languageAbbr": "ENG",
+        "region": "UK",
+        "regionAbbr": "UK",
+        "display": {
+            "language": {
+                "textContent": "English"
+            },
+            "languageAbbr": {
+                "textContent": "ENG"
+            },
+            "region": {
+                "textContent": "UK"
+            },
+            "regionAbbr": {
+                "textContent": "UK"
+            }
+        }
+    },
+    "taskbar": {
+        "search": {
+            "placeholder": "Search"
+        }
+    }
+}
