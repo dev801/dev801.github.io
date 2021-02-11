@@ -22,6 +22,39 @@
     "taskbar": {
         "search": {
             "placeholder": "Search"
+        },
+        "calendar": {
+            "header": "Calendar",
+            "days": {
+                "monday": {
+                    "full": "Monday",
+                    "short": "Mo"
+                },
+                "tuesday": {
+                    "full": "Tuesday",
+                    "short": "Tu"
+                },
+                "wednesday": {
+                    "full": "Wednesday",
+                    "short": "We"
+                },
+                "thursday": {
+                    "full": "Thursday",
+                    "short": "Th"
+                },
+                "friday": {
+                    "full": "Friday",
+                    "short": "Fr"
+                },
+                "saturday": {
+                    "full": "Saturday",
+                    "short": "Sa"
+                },
+                "sunday": {
+                    "full": "Sunday",
+                    "short": "Su"
+                }
+            }
         }
     }
 }
