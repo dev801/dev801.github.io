@@ -4,6 +4,7 @@
         "languageAbbr": "ENG",
         "region": "UK",
         "regionAbbr": "UK",
+        "ISOCode": "gb",
         "display": {
             "language": {
                 "textContent": "English"
@@ -55,6 +56,9 @@
                     "short": "Su"
                 }
             }
+        },
+        "language": {
+            "heading": "Language"
         }
     }
 }

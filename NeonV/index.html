@@ -13,6 +13,9 @@
 		<!-- JQUERY -->
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 	
+		<!-- UNDERSCORE.JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.12.0/underscore-min.js"></script>
+
 		<!-- POPOVER STUFF -->
 		<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
 
@@ -23,13 +26,16 @@
 		<!-- FONT AWESOME -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
 
+		<!-- FLAGS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw==" crossorigin="anonymous" />
+
 		<!-- CUSTOM STUFF -->
 		<link type="text/css" rel="stylesheet" href="style.css">
 		<script src="script.js"></script>
 
 		<title>NeonV</title>
 	</head>
-	<body onload="setup();">
+	<body>
 		<div class="d-sm-none" style="color: #ffffff;">the hell are you on mobile for</div>
 		<div class="d-none d-sm-block">
 			<div class="bg">
@@ -50,7 +56,7 @@
 								<!-- SEARCH -->
 								<div style="padding-left: 5px;">
 									<div class="input-group taskbar-search">
-										<input data-language-code="taskbar-search" type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+										<input data-language-code="taskbar-search" type="text" class="form-control taskbar-search" placeholder="">
 										<div class="input-group-append">
 											<button type="submit" class="btn btn-primary">
 												<i class="fas fa-search"></i>
@@ -68,7 +74,7 @@
 							<!-- INFO ON RIGHT -->
 							<div class="ml-auto">
 								<div class="d-flex">
-									<div class="d-flex flex-column text-center w-100 taskbar-element">
+									<div class="d-flex flex-column text-center w-100 taskbar-element language-container">
 										<div class="language-abbr" data-language-code="meta-display-languageAbbr"></div>
 										<div class="region" data-language-code="meta-display-regionAbbr"></div>
 									</div>

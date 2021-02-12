@@ -1,0 +1,64 @@
+{
+    "meta": {
+        "language": "日本語",
+        "languageAbbr": "日本語",
+        "region": "日本",
+        "regionAbbr": "日本",
+        "ISOCode": "jp",
+        "display": {
+            "language": {
+                "textContent": "日本語"
+            },
+            "languageAbbr": {
+                "textContent": "日本語"
+            },
+            "region": {
+                "textContent": "日本"
+            },
+            "regionAbbr": {
+                "textContent": "日本"
+            }
+        }
+    },
+    "taskbar": {
+        "search": {
+            "placeholder": "検索"
+        },
+        "calendar": {
+            "header": "カレンダー",
+            "days": {
+                "monday": {
+                    "full": "月曜日",
+                    "short": "月"
+                },
+                "tuesday": {
+                    "full": "火曜日",
+                    "short": "火"
+                },
+                "wednesday": {
+                    "full": "水曜日",
+                    "short": "水"
+                },
+                "thursday": {
+                    "full": "木曜日",
+                    "short": "木"
+                },
+                "friday": {
+                    "full": "金曜日",
+                    "short": "金"
+                },
+                "saturday": {
+                    "full": "土曜日",
+                    "short": "土"
+                },
+                "sunday": {
+                    "full": "日曜日",
+                    "short": "日"
+                }
+            }
+        },
+        "language": {
+            "heading": "言語"
+        }
+    }
+}

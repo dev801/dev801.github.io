@@ -1,6 +1,6 @@
 {
-    "background": {
-        "type": "color",
-        "value": "#1d1e1f"
-    }
+    "taskbarText": "#ffffff",
+    "taskbarBg": "#0c0c0cb3",
+    "taskbarHeading": "#111111",
+    "taskbarSelected": "#0085a1"
 }

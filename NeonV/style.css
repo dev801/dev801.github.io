@@ -60,6 +60,24 @@ body {
     background-color: #77777777;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0c0c0cb3;
+    backdrop-filter: blur(60px) saturate(4);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 2.5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
 @keyframes taskbar-hover-in {
     from {
         background-color: #77777700;
