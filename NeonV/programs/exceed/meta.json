@@ -1,6 +1,6 @@
 {
 	"name": "Exceed",
-	"description": "Added cause yes",
+	"description": "Like Excel but not quite Excel",
 	"keywords": [
 		"spreadsheet",
 		"excel"
@@ -13,7 +13,7 @@
 		"y": "450px"
 	},
 	"version": "1.0.0",
-	"icon": "https://dev801.github.io/navLg.png",
+	"icon": "https://cdn.discordapp.com/attachments/734819855890645184/810187014783762442/4bb00a48f558ce987f25ecce645ce3be.png",
 	"windowHeaderColor": "",
 	"windowColor": ""
 }

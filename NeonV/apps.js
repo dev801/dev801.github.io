@@ -100,7 +100,6 @@ class NeonVApp {
 
         
         $(container).resize(_.debounce(() => {
-            console.log("hi")
             $(this.iframe).css("width", "100%");
             $(this.iframe).css("height", "100%");
         }, 200));

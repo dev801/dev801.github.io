@@ -57,27 +57,25 @@ $(window).on("load", () => {
     // ACTIVATE SEARCH POPOUT
     $(".taskbar-search").focusin(_.debounce(() => { if ($(".search-popup").length == 0) { searchPopup(); }}, 200))
     // SEARCH STUFF
-    $(".search").on("input propertychange paste", _.debounce(() => {
+    $(".search").on("input propertychange paste", _.debounce(async () => {
         let val = $(".search").val();
         val = val.trim();
         if (!val || val == "") {
             $(".search-placeholder").remove();
+            $(".search-results").remove();
             $(".search-popup").append(generateSearchPlaceholder());
             return;
         }
         let appsToDisplay = apps.filter(x => {
-            if (x.name.indexOf(val) != -1) return true;
+            if (x.name.toLowerCase().indexOf(val.toLowerCase()) != -1) return true;
             if (val.split(" ").some(y => x.keywords.filter(f => f != "").some(z => z.toLowerCase().indexOf(y.toLowerCase()) != -1))) return true;
             return false;
         })
 
-        
+        $(".search-placeholder").remove();
+        $(".search-results").remove();
+        $(".search-popup").append(await generateSearchStuff(appsToDisplay));
 
-        // TODO
-        // DISPLAY APPS
-        // ALLOW THEM TO OPEN
-        // NEONVAPP#START()
-        // AUTO REGISTERS
     }, 200));
 })
 
@@ -405,8 +403,60 @@ async function searchPopup() {
     document.body.appendChild(searchPopup);
 }
 
-function generateSearchStuff(appsToDisplay) {
-    return document.createTextNode("hi there")
+async function generateSearchStuff(appsToDisplay) {
+    console.log(appsToDisplay.length);
+    if (appsToDisplay.length == 0) {
+        let div = document.createElement("div");
+        div.classList.add("search-results")
+        div.style.padding = "7px";
+        div.appendChild(document.createTextNode(await getLangObject("taskbar-search-noresults")));
+        return div;
+    }
+    let container = document.createElement("div");
+    container.classList.add("d-flex", "flex-column", "search-results");
+    container.style.maxHeight = "550px";
+    container.style.maxWidth = "100%";
+    container.style.overflowX = "hidden"
+    container.style.overflowY = "hidden"
+    container.style.padding = "10px";
+    container.style.paddingLeft = "20px";
+    appsToDisplay.forEach(x => {
+        let div = document.createElement("div");
+        div.classList.add("d-flex");
+        div.style.minHeight = "70px"
+        let iconHolder = document.createElement("div");
+        let icon = document.createElement("img")
+        icon.src = x.icon || "https://dev801.github.io/navLg.png";
+        icon.style.height = "40px";
+        iconHolder.appendChild(icon);
+        div.appendChild(iconHolder);
+
+        let textHolder = document.createElement("div");
+        textHolder.classList.add("d-flex", "flex-column", "justify-content-around");
+        textHolder.style.height = "40px"
+        textHolder.style.paddingLeft = "10px"
+        let title = document.createElement("div")
+        title.appendChild(document.createTextNode(x.name));
+        let description = document.createElement("div");
+        description.appendChild(document.createTextNode(x.description));
+        textHolder.appendChild(title);
+        textHolder.appendChild(description);
+       
+        div.appendChild(textHolder)
+
+        $(div).on("click", async () => {
+            $(".taskbar").click();
+            if (x.format.toLowerCase() == "neonv") {
+                let app = new NeonVApp();
+                await app.setMeta(x.metaPath);
+                app.start();
+            }
+        })
+
+        container.appendChild(div)
+    })
+    
+    return container
 }
 
 function generateSearchPlaceholder() {
@@ -438,6 +488,8 @@ function generateSearchPlaceholder() {
         nameHolder.classList.add("text-center")
         nameHolder.style.padding = "5px";
         nameHolder.style.fontWeight = "200";
+        nameHolder.style.paddingLeft = "7px";
+        nameHolder.style.paddingRight = "7px";
         nameHolder.appendChild(document.createTextNode(apps[i].name));
         div.appendChild(nameHolder);
 
@@ -450,8 +502,11 @@ function generateSearchPlaceholder() {
                 app.start();
             }
         })
-        divContainer.style.marginRight = "10px"
-        horizApps.appendChild(divContainer)
+        // divContainer.style.marginRight = "10px"
+        let anotherDiv = document.createElement("div");
+        anotherDiv.style.paddingRight = "10px";
+        anotherDiv.appendChild(divContainer);
+        horizApps.appendChild(anotherDiv)
     }
     container.appendChild(horizApps);
 
