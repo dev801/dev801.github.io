@@ -1,0 +1,17 @@
+{
+	"name": "FlowpadGo",
+	"description": "nicked this from NeonX for testing",
+	"keywords": [
+		"flowpad"
+	],
+	"mainFile": "https://neon-studios.github.io/flowpadgo",
+	"format": "NeonV",
+	"defaultSize": {
+		"x": "300px",
+		"y": "200px"
+	},
+	"version": "0.0.1",
+	"icon": "https://dev801.github.io/navLg.png",
+	"windowHeaderColor": "",
+	"windowColor": "#ffffff"
+}

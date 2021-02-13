@@ -22,7 +22,8 @@
     },
     "taskbar": {
         "search": {
-            "placeholder": "Search"
+            "placeholder": "Search",
+            "heading": "Apps"
         },
         "calendar": {
             "header": "Calendar",

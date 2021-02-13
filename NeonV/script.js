@@ -1,8 +1,41 @@
+class AppHandler {
+    constructor() {
+        this.apps = [];
+    }
+
+    register(app) {
+        this.apps.push(app);
+        return this;
+    }
+
+    unregister(app) {
+        this.apps = this.apps.filter(x => x != app);
+        return this;
+    }
+
+    getAppFromObject(object) {
+        return this.apps.find(x => x.windowObject == object || x.iframe == object);
+    }
+
+    getAppFromUUID(_uuid) {
+        return this.apps.find(x => x.uuid == _uuid);
+    }
+
+    stopApp(_uuid) {
+        return this.apps.find(x => x.uuid == _uuid).stop();
+    }
+}
+
+globalAppHandler = new AppHandler();
+
 theme = {
     taskbarText: "#ffffff",
     taskbarBg: "#0c0c0cb3",
     taskbarHeading: "#111111",
-    taskbarSelected: "#0085a1"
+    taskbarSelected: "#0085a1",
+    windowHeaderBg: "#111111",
+    windowBg: "#0c0c0cb3",
+    windowTitle: "#ffffff"
 }
 
 settings = {
@@ -10,17 +43,54 @@ settings = {
     theme: "settings/theme/default.json"
 }
 
+apps = []
+
 function setup() {
     displayTimeAndDate();
     loadLangFile();
     loadTheme();
+    loadApps();
 }
 
 $(window).on("load", () => {
     setup();
     // ACTIVATE SEARCH POPOUT
     $(".taskbar-search").focusin(_.debounce(() => { if ($(".search-popup").length == 0) { searchPopup(); }}, 200))
+    // SEARCH STUFF
+    $(".search").on("input propertychange paste", _.debounce(() => {
+        let val = $(".search").val();
+        val = val.trim();
+        if (!val || val == "") {
+            $(".search-placeholder").remove();
+            $(".search-popup").append(generateSearchPlaceholder());
+            return;
+        }
+        let appsToDisplay = apps.filter(x => {
+            if (x.name.indexOf(val) != -1) return true;
+            if (val.split(" ").some(y => x.keywords.filter(f => f != "").some(z => z.toLowerCase().indexOf(y.toLowerCase()) != -1))) return true;
+            return false;
+        })
+
+        
+
+        // TODO
+        // DISPLAY APPS
+        // ALLOW THEM TO OPEN
+        // NEONVAPP#START()
+        // AUTO REGISTERS
+    }, 200));
 })
+
+async function loadApps() {
+    let data = undefined;
+    await $.getJSON("programs/meta.json", (json) => data = json);
+    data.forEach(async x => {
+        apps.push(await $.getJSON(`programs/${x}`, (json) => {
+            json.metaPath = `programs/${x}`;
+            return json;
+        }));
+    });
+}
 
 function displayTimeAndDate() {
     let date = new Date();
@@ -115,6 +185,11 @@ $(window).on("click", async (event) => {
             document.getElementsByClassName("search-popup")[i].style.animation = "fade-out 0.5s";
         }
         await $(".search-popup").one(animationEvent, (event) => $(".search-popup").remove())
+    }
+
+    if ($(event.target).parents(".neonapp").length || $(event.target).is(".neonapp")) {
+        $(event.target).parents(".neonapp").css("z-index", 80);
+        $(event.target).parents(".neonapp").siblings(".neonapp").css("z-index", 30);
     }
 })
 
@@ -305,7 +380,7 @@ async function searchPopup() {
     searchPopup.style.backgroundColor = theme.taskbarBg;
     searchPopup.style.borderRadius = "10px";
     searchPopup.style.maxHeight = "550px";
-    searchPopup.style.width = "250px";
+    searchPopup.style.width = "400px";
     searchPopup.style.overflow = "hidden";
     searchPopup.style.position = "absolute";
     searchPopup.style.left = "53px";
@@ -325,7 +400,62 @@ async function searchPopup() {
 
     searchPopup.appendChild(heading);
 
+    searchPopup.appendChild(generateSearchPlaceholder());
+
     document.body.appendChild(searchPopup);
+}
+
+function generateSearchStuff(appsToDisplay) {
+    return document.createTextNode("hi there")
+}
+
+function generateSearchPlaceholder() {
+    let container = document.createElement("div");
+    container.classList.add("d-flex", "flex-column", "search-placeholder");
+    let horizApps = document.createElement("div");
+    horizApps.classList.add("d-flex");
+    horizApps.style.overflowX = "scroll";
+    horizApps.style.padding = "10px";
+    for (let i = 0; i < Math.min(apps.length, 8); i++) {
+        let divContainer = document.createElement("div");
+        divContainer.classList.add("d-inline-flex", "justify-content-around")
+        let div = document.createElement("div")
+        div.classList.add("d-flex", "flex-column", "justify-content-around");
+        div.style.backgroundColor = theme.taskbarHeading;
+        div.style.borderRadius = "10px";
+        div.style.overflow = "hidden";
+
+        let iconHolder = document.createElement("div");
+        iconHolder.style.padding = "20px";
+        iconHolder.style.paddingBottom = "0";
+        let icon = document.createElement("img");
+        icon.src = apps[i].icon || "https://dev801.github.io/navLg.png";
+        icon.style.width = "40px"
+        iconHolder.appendChild(icon);
+        div.appendChild(iconHolder);
+
+        let nameHolder = document.createElement("div");
+        nameHolder.classList.add("text-center")
+        nameHolder.style.padding = "5px";
+        nameHolder.style.fontWeight = "200";
+        nameHolder.appendChild(document.createTextNode(apps[i].name));
+        div.appendChild(nameHolder);
+
+        divContainer.appendChild(div)
+        $(divContainer).on("click", async () => {
+            $(".taskbar").click();
+            if (apps[i].format.toLowerCase() == "neonv") {
+                let app = new NeonVApp();
+                await app.setMeta(apps[i].metaPath);
+                app.start();
+            }
+        })
+        divContainer.style.marginRight = "10px"
+        horizApps.appendChild(divContainer)
+    }
+    container.appendChild(horizApps);
+
+    return container;
 }
 
 function alsoLanguagePopup() {
@@ -347,4 +477,11 @@ function whichAnimationEvent(){
             return animations[t];
         }
     }
-  }
+}
+
+function uuidv4() {
+    return 'Nxxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+        return v.toString(16);
+    });
+}

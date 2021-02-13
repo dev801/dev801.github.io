@@ -1,3 +1,5 @@
 [
-    "settings/meta.json"
+    "settings/meta.json",
+	"neonx/meta.json",
+    "flowpadgo/meta.json"
 ]

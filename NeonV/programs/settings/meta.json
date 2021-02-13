@@ -1,6 +1,13 @@
 {
 	"name": "Settings",
 	"description": "Change this thing's settings.",
+	"keywords": [
+		"testkeyword"
+	],
 	"mainFile": "index.html",
-	"version": "0.0.1"
+	"format": "NeonV",
+	"version": "0.0.1",
+	"icon": "https://dev801.github.io/navLg.png",
+	"windowHeaderColor": "",
+	"windowColor": ""
 }
