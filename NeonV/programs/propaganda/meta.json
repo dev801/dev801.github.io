@@ -1,0 +1,19 @@
+{
+	"name": "Propaganda",
+	"description": "DOWN WITH NEON UWP",
+	"keywords": [
+		"propaganda",
+		"neon",
+		"uwp"
+	],
+	"defaultSize": {
+		"x": "700px",
+		"y": "450px"
+	},
+	"mainFile": "index.html",
+	"format": "NeonV",
+	"version": "0.0.1",
+	"icon": "https://dev801.github.io/navLg.png",
+	"windowHeaderColor": "",
+	"windowColor": ""
+}

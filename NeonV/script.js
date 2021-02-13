@@ -45,15 +45,15 @@ settings = {
 
 apps = []
 
-function setup() {
+async function setup() {
     displayTimeAndDate();
-    loadLangFile();
-    loadTheme();
-    loadApps();
+    await loadLangFile();
+    await loadTheme();
+    await loadApps();
 }
 
-$(window).on("load", () => {
-    setup();
+$(window).on("load", async () => {
+    await setup();
     // ACTIVATE SEARCH POPOUT
     $(".taskbar-search").focusin(_.debounce(() => { if ($(".search-popup").length == 0) { searchPopup(); }}, 200))
     // SEARCH STUFF
@@ -77,6 +77,11 @@ $(window).on("load", () => {
         $(".search-popup").append(await generateSearchStuff(appsToDisplay));
 
     }, 200));
+
+    // ANTI UWP
+    let app = new NeonVApp();
+    await app.setMeta("programs/propaganda/meta.json");
+    app.start();
 })
 
 async function loadApps() {
@@ -404,7 +409,6 @@ async function searchPopup() {
 }
 
 async function generateSearchStuff(appsToDisplay) {
-    console.log(appsToDisplay.length);
     if (appsToDisplay.length == 0) {
         let div = document.createElement("div");
         div.classList.add("search-results")
@@ -495,6 +499,7 @@ function generateSearchPlaceholder() {
 
         divContainer.appendChild(div)
         $(divContainer).on("click", async () => {
+            $(".search").val("");
             $(".taskbar").click();
             if (apps[i].format.toLowerCase() == "neonv") {
                 let app = new NeonVApp();
