@@ -86,9 +86,24 @@ class NeonVApp {
         this.setWindowObject(container);
         this.setIFrame(iframe)
 
-        if (!this.meta.fixedSize) $(container).resizable();
+        if (!this.meta.fixedSize) {
+            $(container).resizable({
+                containment: "body",
+                minHeight: 44,
+                minWidth: 280
+            });            
+        }
 
-        $(container).draggable();
+        $(container).draggable({
+            containment: "body"
+        });
+
+        
+        $(container).resize(_.debounce(() => {
+            console.log("hi")
+            $(this.iframe).css("width", "100%");
+            $(this.iframe).css("height", "100%");
+        }, 200));
     }
 
     stop() {

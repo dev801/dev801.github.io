@@ -2,7 +2,7 @@
 	"name": "Settings",
 	"description": "Change this thing's settings.",
 	"keywords": [
-		"testkeyword"
+		"change"
 	],
 	"mainFile": "index.html",
 	"format": "NeonV",
