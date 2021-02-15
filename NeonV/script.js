@@ -77,11 +77,6 @@ $(window).on("load", async () => {
         $(".search-popup").append(await generateSearchStuff(appsToDisplay));
 
     }, 200));
-
-    // ANTI UWP
-    let app = new NeonVApp();
-    await app.setMeta("programs/propaganda/meta.json");
-    app.start();
 })
 
 async function loadApps() {

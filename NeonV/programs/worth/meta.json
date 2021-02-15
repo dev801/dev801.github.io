@@ -1,0 +1,21 @@
+{
+	"name": "Worth",
+	"description": "Lightweight document editor",
+	"keywords": [
+		"word",
+		"document",
+		"edit",
+		"editor"
+	],
+	"mainFile": "https://firecubestudios.github.io/Worth/",
+	"format": "NeonV",
+	"fixedSize": false,
+	"defaultSize": {
+		"x": "800px",
+		"y": "450px"
+	},
+	"version": "1.0.0",
+	"icon": "https://cdn.discordapp.com/attachments/734819855890645184/810187014783762442/4bb00a48f558ce987f25ecce645ce3be.png",
+	"windowHeaderColor": "",
+	"windowColor": ""
+}
